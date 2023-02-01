@@ -1,0 +1,285 @@
+
+/*Start animation */
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale3d(.3, .3, .3)
+    }
+
+    50% {
+        opacity: 1
+    }
+}
+
+.animated .zoomIn {
+    animation-name: zoomIn;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes zoomInDown {
+    from {
+        opacity: 0;
+        transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+        animation-timing-function: cubic-bezier(.55, .055, .675, .19)
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+        animation-timing-function: cubic-bezier(.175, .885, .32, 1)
+    }
+}
+
+.animated .zoomInDown {
+    animation-name: zoomInDown;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes zoomInLeft {
+    from {
+        opacity: 0;
+        transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
+        animation-timing-function: cubic-bezier(.55, .055, .675, .19)
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
+        animation-timing-function: cubic-bezier(.175, .885, .32, 1)
+    }
+}
+
+.animated .zoomInLeft {
+    animation-name: zoomInLeft;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes zoomInRight {
+    from {
+        opacity: 0;
+        transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+        animation-timing-function: cubic-bezier(.55, .055, .675, .19)
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
+        animation-timing-function: cubic-bezier(.175, .885, .32, 1)
+    }
+}
+
+.animated  .zoomInRight {
+    animation-name: zoomInRight;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes zoomInUp {
+    from {
+        opacity: 0;
+        transform: scale3d(.1, .1, .1) translate3d(0, 1000px, 0);
+        animation-timing-function: cubic-bezier(.55, .055, .675, .19)
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0);
+        animation-timing-function: cubic-bezier(.175, .885, .32, 1)
+    }
+}
+
+.animated  .zoomInUp {
+    animation-name: zoomInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+
+}
+
+
+
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 100%, 0);
+        -webkit-transform: translate3d(0, 100%, 0);
+        -moz-transform: translate3d(0, 100%, 0);
+        -ms-transform: translate3d(0, 100%, 0);
+        -o-transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0)
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+.animated .fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0)
+    }
+
+    to {
+        opacity: 1;
+        transform: none
+    }
+}
+
+.animated .fadeInDown {
+    animation-name: fadeInDown;
+    -webkit-animation-name: fadeInDown;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+
+
+@keyframes bounceIn {
+
+    20%,
+    40%,
+    60%,
+    80%,
+    from,
+    to {
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+    }
+
+    0% {
+        opacity: 0;
+        transform: scale3d(.3, .3, .3)
+    }
+
+    20% {
+        transform: scale3d(1.1, 1.1, 1.1)
+    }
+
+    40% {
+        transform: scale3d(.9, .9, .9)
+    }
+
+    60% {
+        opacity: 1;
+        transform: scale3d(1.03, 1.03, 1.03)
+    }
+
+    80% {
+        transform: scale3d(.97, .97, .97)
+    }
+
+    to {
+        opacity: 1;
+        transform: scale3d(1, 1, 1)
+    }
+}
+
+.animated .bounceIn {
+    animation-name: bounceIn;
+    -webkit-animation-name: bounceIn;
+    animation-duration: .75s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: .75s;
+    -webkit-animation-fill-mode: both;
+    animation: .75s bounceIn .75s linear;
+    -webkit-animation: .75s bounceIn .75s linear;
+}
+
+@keyframes bounceInUp {
+
+    60%,
+    75%,
+    90%,
+    from,
+    to {
+        animation-timing-function: cubic-bezier(.215, .61, .355, 1)
+    }
+
+    from {
+        opacity: 0;
+        transform: translate3d(0, 3000px, 0)
+    }
+
+    60% {
+        opacity: 1;
+        transform: translate3d(0, -20px, 0)
+    }
+
+    75% {
+        transform: translate3d(0, 10px, 0)
+    }
+
+    90% {
+        transform: translate3d(0, -5px, 0)
+    }
+
+    to {
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+.animated .bounceInUp {
+    animation-name: bounceInUp;
+    -webkit-animation-name: bounceInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+
+}
+
+.animated-slow {
+    animation-duration: 2s;
+}
+
+
+.about-us .gridContainer-about .text div:nth-child(1) {
+    animation-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    animation-duration: 2s;
+
+
+}
+
+.about-us .gridContainer-about .text div:nth-child(2) {
+    animation-timing-function: cubic-bezier(0.50, 0.1, 0.50, 1);
+    animation-duration: 2s;
+
+}
+
+.about-us .gridContainer-about .text div:nth-child(3) {
+    animation-timing-function: cubic-bezier(0.75, 0.1, 0.75, 1);
+    animation-duration: 2s;
+
+}
+
+.about-us .gridContainer-about .text div:nth-child(4) {
+    animation-timing-function: cubic-bezier(1, 1, 1, 1);
+    animation-duration: 2s;
+
+}
+
+/*End animation */
