@@ -158,6 +158,11 @@ body {
     text-align: center;
 }
 
+.display-flex {
+    display: flex;
+    grid-gap: 40px;
+}
+
 h1 {
     font-size: 70px;
     font-weight: 900;
@@ -321,8 +326,9 @@ button {
 }
 
 textarea,
-input:not([type="radio"]),
-input:not([type="checkbox"]) {
+input:not([type="radio"],
+    [type="checkbox"],
+    [type="range"]) {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -1800,23 +1806,28 @@ p.descrp {
     width: 30px;
     height: 30px;
 }
-.sectionTimeline .nav-timeline button.next{
+
+.sectionTimeline .nav-timeline button.next {
     margin-left: 24px;
 }
-.sectionTimeline .nav-timeline button i{
+
+.sectionTimeline .nav-timeline button i {
     color: #fff;
 }
-.sectionTimeline .nav-timeline button:hover{
+
+.sectionTimeline .nav-timeline button:hover {
     background: #E52522;
 }
+
 .container-item-data .text h4.title {
     color: #767B92;
 }
-.nav-timeline{
+
+.nav-timeline {
     position: absolute;
     bottom: 45px;
     left: 10px;
-  }
+}
 
 /* End Section Timeline */
 
@@ -3358,9 +3369,11 @@ input[type="checkbox"] {
     background-position-x: right;
 
 }
-.whereToStudy-banner .col-md-6{
+
+.whereToStudy-banner .col-md-6 {
     padding: 0;
 }
+
 .whereToStudy-banner .relative-box-about {
     left: unset;
     top: 190px;
@@ -3953,15 +3966,333 @@ input[type="checkbox"] {
 }
 
 
-.contact-banner select:last-child{
+.contact-banner select:last-child {
     display: none;
 }
 
-.about-us .gridContainer-counter .number{
+.about-us .gridContainer-counter .number {
     padding: 20px;
 }
 
 
-.sectionTimeline .col-nav{
+.sectionTimeline .col-nav {
     position: relative !important;
 }
+
+
+/**/
+.navbar {
+    overflow: hidden;
+}
+
+.navbar-mobile {
+    display: block;
+}
+
+.navbar .sidenav {
+    position: fixed;
+    top: 0;
+
+    right: 0;
+    left: unset;
+    width: 300px;
+    transform: translateX(300px);
+    -webkit-transform: translateX(300px);
+    -moz-transform: translateX(300px);
+    -ms-transform: translateX(300px);
+    -o-transform: translateX(300px);
+}
+
+.navbar .colse,
+.navbar .toggle {
+    cursor: pointer;
+}
+
+.navbar .colse {
+    text-align: right;
+    padding: 15px 30px;
+}
+
+/* Start Css Page Study 01 */
+.study1-banner .background-banner-color {
+    padding-bottom: 22px;
+}
+
+.study1-banner .relative-dots-about {
+    top: 30px;
+    right: 110px;
+    z-index: 2;
+}
+
+.study1-banner .relative-box-about {
+    left: -130px;
+    top: 65px;
+    z-index: 3;
+}
+
+.text-align {
+    text-align: center !important;
+}
+
+.radio-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 60px;
+    margin-bottom: 50px;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radio-input {
+    margin-right: 20px;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #C4C4C4;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radio-input:before {
+    content: "";
+    width: 70%;
+    height: 70%;
+    background: #C4C4C4;
+    border-radius: 50%;
+}
+
+.radio-input:checked::before {
+    background: #33CA94;
+}
+
+.radio-label-text {
+    font-size: 16px;
+}
+
+
+.title-study {
+
+    margin-bottom: 31px;
+}
+
+select {
+    border: 1px solid #33CA94;
+    border-radius: 6px;
+    height: 64px;
+    width: 100%;
+    padding: 17px 30px;
+    color: #8692A6;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+}
+
+.have-style-label,
+.container-formBox .grid-towCol label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #696F79;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.checkbox-course label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #696F79;
+}
+
+.grid-towCol {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin: auto;
+
+    margin-bottom: 35px;
+}
+
+.range-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 90px;
+    width: max-content;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.range-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-items: flex-start;
+
+}
+
+.range-container label {
+    margin-bottom: 10px;
+    color: #696F79;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #ddd;
+    outline: none;
+    margin-bottom: 10px;
+
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #33CA94;
+    cursor: pointer;
+
+}
+
+.range-container span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #8692A6;
+    margin-bottom: 11px;
+}
+
+.output-range {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input[type="range"]::selection {
+    background-color: #33CA94;
+
+}
+
+.radio-label-text {
+    margin: 0 !important;
+}
+
+.grid-towCol.width-max {
+    width: max-content;
+}
+
+.checkbox-course {
+    width: max-content;
+    margin: auto;
+}
+
+#checkbox-group-1 {}
+
+#checkbox-group-1,
+#checkbox-group-2 {
+    display: flex;
+    align-items: center;
+    grid-gap: 25px;
+    margin-bottom: 25px;
+
+}
+
+#checkbox-group-1 .form-area,
+#checkbox-group-2 .form-area {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-course input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    background: #C4C4C4 !important;
+    border-radius: 4px;
+    margin-right: 10px;
+    accent-color: #33CA94;
+
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    grid-gap: 20px;
+}
+
+.button-group .btn {
+    height: 60px;
+    background: #33CA94;
+    border-radius: 10px;
+    padding: 0 30px;
+    color: #fff;
+    min-width:  226px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.button-group .btn-blue {
+    background: #2575FC;
+}
+
+.button-group .btn-blue span {
+    display: block;
+
+}
+
+.button-group .btn-blue span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+
+}
+
+.button-group .btn-blue .small {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 208.5%;
+}
+.button-group .btn-blue {
+    flex-flow: column;
+
+}
+.study1-banner{
+    margin-bottom: 40px;
+}
+.range-container .radio-wrapper label{
+    margin-bottom: 10px;
+    display: block;
+}
+/* End Css Page Study 01 */

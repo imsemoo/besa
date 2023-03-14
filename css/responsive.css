@@ -1018,19 +1018,75 @@
         grid-gap: 20px;
         margin-bottom: 30px;
     }
+
     .tabes .gridTabes {
         max-width: 100%;
     }
-    .british-tabes .gridTabes .btn{
+
+    .british-tabes .gridTabes .btn {
         width: 100%;
     }
+
     .fair-banner .box-gray {
         margin: 0;
 
         padding: 20px;
     }
+
     .fair-banner {
         padding: 0;
         padding-bottom: 20px;
+    }
+
+    .radio-container {
+        margin-bottom: 25px;
+
+        justify-content: space-evenly;
+        grid-gap: 20px;
+        flex-flow: column;
+        place-items: flex-start;
+    }
+
+    .grid-towCol {
+
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .range-container {
+        grid-template-columns: 1fr;
+        grid-gap: 25px;
+        width: 100%;
+
+    }
+
+    .button-group {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        grid-gap: 20px;
+        flex-flow: column;
+    }
+
+    .study1-banner .relative-box-about h2 {
+        margin-bottom: 25px;
+    }
+
+    #checkbox-group-1,
+    #checkbox-group-2 {
+
+        flex-flow: column;
+        place-items: stretch;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar .sidenav {
+        width: 100%;
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
     }
 }
