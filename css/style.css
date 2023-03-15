@@ -4083,7 +4083,7 @@ input[type="checkbox"] {
     margin-bottom: 31px;
 }
 
-select {
+.study1-banner select {
     border: 1px solid #33CA94;
     border-radius: 6px;
     height: 64px;
@@ -4253,7 +4253,7 @@ input[type="range"]::selection {
     border-radius: 10px;
     padding: 0 30px;
     color: #fff;
-    min-width:  226px;
+    min-width: 226px;
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 20px;
@@ -4284,15 +4284,52 @@ input[type="range"]::selection {
     font-size: 10px;
     line-height: 208.5%;
 }
+
 .button-group .btn-blue {
     flex-flow: column;
 
 }
-.study1-banner{
+
+.study1-banner {
     margin-bottom: 40px;
 }
-.range-container .radio-wrapper label{
+
+.range-container .radio-wrapper label {
     margin-bottom: 10px;
     display: block;
+}
+
+#slider_range {
+    width: 100%;
+    margin-bottom: 15px;
+    height: 2px;
+    background: #B4BEC8;
+    border: none;
+
+}
+
+.noUi-horizontal .noUi-handle {
+    border-radius: 50%;
+    left: -17px;
+    top: -3px;
+    background: #33CA94;
+    width: 8px;
+    height: 8px;
+    border: none;
+    box-shadow: none;
+}
+
+.noUi-handle:after,
+.noUi-handle:before {
+    display: none;
+}
+
+.noUi-connect {
+    background: #33CA94;
+
+}
+html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
+    right: -5px;
+    left: auto;
 }
 /* End Css Page Study 01 */

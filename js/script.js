@@ -224,8 +224,7 @@ $(document).ready(function () {
         }
     });
 
-
-
+ 
 
 });
 
@@ -237,7 +236,7 @@ rangeContainer.addEventListener('input', ev => {
   const sliderPosition = rangeInput.value;
   const sliderMaxValue = rangeInput.max;
   const sliderPositionPercentage = (sliderPosition/sliderMaxValue)*100;
-  rangeInput.style.backgroundImage = `linear-gradient(to right, #33CA94 ${sliderPositionPercentage*sliderWidth/100}px, #f5f5f5 ${sliderPositionPercentage*sliderWidth/100}px)`;
+  rangeInput.style.backgroundImage = `linear-gradient(to right, #33CA94 ${sliderPositionPercentage*sliderWidth/100}px, #B4BEC8 ${sliderPositionPercentage*sliderWidth/100}px)`;
   rangeInput.id === "age" ? valueSpan.textContent = sliderPosition + " year" : valueSpan.textContent = "$" + sliderPosition;
 });
 rangeContainer.querySelectorAll('input[type="range"]').forEach(rangeInput => rangeInput.value = 0);

@@ -9,6 +9,10 @@
 
     <link rel="stylesheet" href="./css/normalize.min.css">
     <link rel="stylesheet" href="./css/timeline.css">
+   <!-- add This File (range slider)-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.2/nouislider.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.2/nouislider.min.css" />
+
 
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/grid.css">
@@ -168,7 +172,36 @@
                             </div>
                             <div class="range-container">
                                 <div class="range-wrapper">
-                                  <label for="budget">What is your budget?</label>
+                                    <label for="budget">What is your budget?</label>
+                                    <div class="output-range">
+                                        <span id="slider-value">$1000 </span>
+                                        <span id="max-val">$100,000 </span>
+
+                                    </div>
+                                    <div id="slider_range"></div>
+                                    <span style="font-size: 10px;">Average $50,000 per year </span>
+                                    <script>
+                                             var slider = document.getElementById('slider_range');
+                                            var sliderValueElement = document.getElementById('slider-value');
+                                            var maxValElement = document.getElementById('max-val');
+
+                                            noUiSlider.create(slider, {
+                                                start: [40000, 60000],
+                                                connect: true,
+                                                range: {
+                                                min: 1000,
+                                                max: 100000
+                                                }
+                                            });
+
+                                            slider.noUiSlider.on('update', function(values, handle) {
+                                                sliderValueElement.innerHTML = "$" + Math.round(values[0]);
+                                                maxValElement.innerHTML = "$" + Math.round(values[1]);
+                                            });
+   
+                                            
+                                    </script>                                  
+                                <!-- 
                                     <div class="output-range">
                                         <span id="budget-value">$1000 </span>
                                         <span id="">$100,000 </span>
@@ -176,6 +209,7 @@
                                     </div>
                                   <input type="range" id="budget" min="1000" max="100000">
                                   <span style="font-size: 10px;">Average $50,000 per year </span>
+                                  -->
                                 </div>
                                 <div class="radio-wrapper">
                                     <label for="visa">Need help in visa issuing?</label>
@@ -371,6 +405,7 @@
    <script src="./js/owl.carousel.min.js"></script>
    <script src="./js/pana-accordion.js"></script>
    <script src="./js/timeline.js"></script>
+
    <script src="./js/script.js"></script>
 
 </body>
