@@ -4505,6 +4505,82 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
     color: #33CA94;
 
 }
-.button-next-prev{
+
+.button-next-prev {
     text-align: center;
+}
+
+.navbar .toggle {
+    padding-top: 0;
+    background: #E7E7E9;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.navbar .toggle i {
+    color: #000000;
+}
+
+.navbar .links li.buttons a {
+    height: 50px;
+}
+
+.li-search {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    position: relative;
+}
+
+input.search {
+    width: 163px;
+    background: #E7E7E9;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    height: 32px;
+
+}
+
+.search-list {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 467px;
+    padding: 0 15px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    z-index: 99;
+    display: none;
+}
+
+.search-list ul li {
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid #D9D9D9;
+    padding: 11px 0px !important;
+    z-index: 99;
+}
+
+.search-list ul li:last-child {
+    border: none;
+}
+
+.search-list ul li img {
+    margin-right: 20px;
+}
+
+.search-list ul li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    text-decoration-line: underline;
+    color: #2575FC !important;
+}
+.search-list.show {
+    display: block;
+  }
+.navbar {
+    overflow: visible;
 }

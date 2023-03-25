@@ -257,3 +257,17 @@ rangeContainer.addEventListener('input', ev => {
 });
 // Set all rangeInput values to 0
 rangeContainer.querySelectorAll('input[type="range"]').forEach(rangeInput => rangeInput.value = 0);
+
+
+
+//
+const searchInput = document.querySelector('.search');
+const searchList = document.querySelector('.search-list');
+
+searchInput.addEventListener('click', toggleSearchList);
+searchInput.addEventListener('focus', toggleSearchList);
+searchInput.addEventListener('blur', toggleSearchList);
+
+function toggleSearchList() {
+  searchList.classList.toggle('show');
+}
