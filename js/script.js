@@ -228,6 +228,19 @@ $(document).ready(function () {
 
 });
 
+//
+const searchInput = document.querySelector('.search');
+const searchList = document.querySelector('.search-list');
+
+searchInput.addEventListener('click', toggleSearchList);
+searchInput.addEventListener('focus', toggleSearchList);
+searchInput.addEventListener('blur', toggleSearchList);
+
+function toggleSearchList() {
+  searchList.classList.toggle('show');
+}
+
+
 const rangeContainer = document.querySelector('.range-container');
 rangeContainer.addEventListener('input', ev => {
   const rangeInput = ev.target;
@@ -260,14 +273,3 @@ rangeContainer.querySelectorAll('input[type="range"]').forEach(rangeInput => ran
 
 
 
-//
-const searchInput = document.querySelector('.search');
-const searchList = document.querySelector('.search-list');
-
-searchInput.addEventListener('click', toggleSearchList);
-searchInput.addEventListener('focus', toggleSearchList);
-searchInput.addEventListener('blur', toggleSearchList);
-
-function toggleSearchList() {
-  searchList.classList.toggle('show');
-}
