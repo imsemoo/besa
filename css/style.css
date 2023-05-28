@@ -321,7 +321,7 @@ button {
     color: #fff;
 }
 
-.form .form-area {
+.form-area {
     margin-bottom: 24px;
     position: relative;
 }
@@ -2198,7 +2198,7 @@ p.descrp {
     grid-column: 1/ 4;
 }
 
-.container-formBox .grid-container label {
+.container-formBox .form-area label {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -2210,6 +2210,7 @@ p.descrp {
     margin-bottom: 15px;
 }
 
+.container-formBox .form-area textarea,
 .container-formBox .grid-container select,
 .container-formBox .grid-container input {
     border: 1px solid #33CA94;
@@ -2223,6 +2224,10 @@ p.descrp {
     font-style: normal;
     font-weight: 400;
     font-size: 13.5px;
+}
+
+.container-formBox .form-area textarea {
+    height: unset;
 }
 
 .container-formBox .grid-container .grid-3col {
@@ -5060,9 +5065,11 @@ input.search {
     color: #FFFFFF;
     margin-bottom: 45px;
 }
-.profile-banner .status.online{
+
+.profile-banner .status.online {
     background: #33CA94;
 }
+
 .profile-banner .grid-container-profile .left-box .btn {
     font-family: 'Poppins';
     font-style: normal;
@@ -5104,4 +5111,73 @@ input.search {
 .school-councillors-profile .relative-box-about {
     left: -15px;
     top: 120px;
+}
+.app-support-banner{
+    padding-bottom: 50px;
+}
+.app-support-banner .background-banner-color{
+    margin-bottom: 30px;
+}
+.descrpBannar {
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.app-support-banner .relative-box-about {
+    left: -70px;
+    top: 110px;
+}
+
+.app-support-banner .relative-dots-about {
+    top: 30px;
+    right: 50px;
+}
+
+.gray-box {
+    background: #EAF1F3;
+    border-radius: 30px;
+    width: 100%;
+    padding: 20px 25px;
+    margin-bottom: 40px;
+}
+
+.gray-box p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+    color: #242F65;
+}
+
+.app-support-banner .container-submit {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0;
+
+}
+
+.custome-list {
+    list-style: disc;
+    margin-left: 15px;
+
+}
+
+.custome-list li {
+    list-style: disc;
+    display: list-item;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8692A6;
+
 }
