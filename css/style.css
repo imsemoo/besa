@@ -4582,9 +4582,386 @@ input.search {
     text-decoration-line: underline;
     color: #2575FC !important;
 }
+
 .search-list.show {
     display: block;
-  }
+}
+
 .navbar {
     overflow: visible;
+}
+
+
+/*New Css 25/5/2023 By En*/
+
+/*Start study broad guidance*/
+.study-broad-guidance {
+    background: linear-gradient(180deg, #DEDEDE 0%, rgba(217, 217, 217, 0.3) 47.92%);
+}
+
+.study-broad-guidance .title {
+    margin-bottom: 5px;
+}
+
+.study-broad-guidance p {
+    font-size: 24px;
+    color: #000;
+}
+
+.study-broad-guidance .title-green {
+    margin-bottom: 15px;
+
+}
+
+.title-green {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #33CA94;
+}
+
+.study-broad-guidance .btn {
+    background: #2C3041;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    width: 180px;
+    color: #fff;
+    margin: 18px auto;
+}
+
+.contaienr-conditions {
+    display: flex;
+    padding: 70px 0 0;
+    grid-gap: 12px;
+
+}
+
+.contaienr-conditions .box {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 40px 18px 40px 15px;
+    position: relative;
+    max-width: 229px;
+}
+
+.contaienr-conditions .box .icon {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 50%;
+    top: -51px;
+    background: #33CA94;
+    box-shadow: 7px 3px 1px rgba(0, 0, 0, 0.22);
+    border-radius: 50px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contaienr-conditions .box h2 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #242F65;
+    margin-bottom: 10px;
+}
+
+.contaienr-conditions .box p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #767B92;
+}
+
+.contaienr-conditions .box:not(:first-child)::before {
+    /*CSSrulesforalldivsexceptthefirstone*/
+    /*content: url(../img/new-images/arrow-right-gray.svg);*/
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -5.89%;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border-right: 14px solid #ebebeb;
+    border-top: 14px solid #ebebeb;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.contaienr-conditions .box:not(:last-child):after {
+    font-family: "FontAwesome";
+    right: -12px;
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-right: 12px solid #ffffff;
+    border-top: 12px solid #ffffff;
+    transform: translateY(-50%) rotate(45deg);
+    font-size: 60px;
+    color: #ffffff;
+    z-index: 3;
+}
+
+.arrow-green::after {
+    right: -10px;
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-right: 5px solid #33CA94;
+    border-top: 5px solid #33CA94;
+    transform: translateY(-50%) rotate(45deg);
+    font-size: 60px;
+    color: #ffffff;
+    z-index: 10;
+}
+
+/*End study broad guidance*/
+
+
+/* Start why besa 2*/
+
+.why_besa2 {
+    background: #2C3041;
+    padding: 20px 0;
+}
+
+.why_besa2 h2 {
+    color: #FFFFFF;
+    font-size: 48px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.container-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.container-icons .icon-box h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+
+}
+
+.container-icons .icon-box img {
+    display: block;
+    margin-left: auto;
+}
+
+.container-icons .icon-box {
+    padding: 24px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container-icons .icon-box:nth-child(1) {
+    border-bottom: 7px solid #767B92;
+
+}
+
+.container-icons .icon-box:nth-child(2) {
+    border-bottom: 7px solid #33CA94;
+
+}
+
+.container-icons .icon-box:nth-child(3) {
+    border-bottom: 7px solid #FF5151;
+
+}
+
+.container-icons .icon-box:nth-child(4) {
+    border-bottom: 7px solid #2575FC;
+
+}
+
+.container-icons .icon-box:nth-child(5) {
+    border-bottom: 7px solid #E3B505;
+
+}
+
+.secondry-container-icons .icon-box {
+    border: none !important;
+}
+
+/* End why besa 2*/
+
+/*Start choose place*/
+.choose-place {
+    background: #fff;
+    padding: 100px 0;
+}
+
+.choose-place .background-earth {
+    padding: 20px 0;
+
+}
+
+.choose-place .background-earth img {}
+
+.choose-place .title-choose-place {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 63px;
+    color: #242F65;
+}
+
+.choose-place .title-choose-place span {
+    color: #66D8FF;
+}
+
+.choose-place .btn-aqua {
+    background: #66D8FF;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #fff;
+    padding: 10px 14px;
+    width: max-content;
+    height: 62px;
+
+}
+
+/*End choose place*/
+
+/*Start testimonials 2*/
+.testimonials2 {
+    background-image: url(../img/new-images/testimonials-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.testimonials2 .title {
+    color: #fff;
+}
+
+.container-videos {
+    display: flex;
+    justify-content: center;
+    grid-gap: 50px;
+    margin-bottom: 20px;
+}
+
+.testimonials2 .box-video {
+    width: 418px;
+    height: 255px;
+}
+
+.testimonials2 .box-video video {
+    width: 100%;
+    border: 11px solid #E3B505;
+    border-radius: 50px;
+
+}
+
+/*End testimonials 2*/
+
+/* Start Create an account*/
+.Create-account-banner {
+    padding-bottom: 50px;
+
+}
+
+.Create-account-banner .background-banner-color {
+    margin-bottom: 35px;
+}
+
+.Create-account-banner .container-formBox .grid-container {
+    grid-template-columns: 3fr 3fr;
+}
+
+.Create-account-banner .light-para {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8692A6;
+    margin: 19px 0 24px;
+}
+
+.Create-account-banner .container-submit {
+    grid-template-columns: 56% 36%;
+    grid-gap: 50px;
+    padding: 0;
+}
+
+.Create-account-banner .container-submit .btn {
+    height: 60px;
+
+}
+
+.Create-account-banner .container-formBox.blue-border {
+    margin: 0;
+}
+
+.login .grid-container {
+    grid-template-columns: 1fr !important;
+}
+
+.login .btn {
+    color: #fff;
+}
+
+.login .grid-container select,
+.login .grid-container input {
+    border: 1px solid #2575FC !important;
+
+}
+.mr {
+    padding-right: 25px;
+}
+
+.ml {
+    padding-left: 25px;
+}
+
+/* End Create an account*/
+
+
+.profile-banner .relative-dots-about {
+    top: 35px;
+    right: 15px;
+}
+
+.profile-banner .relative-box-about {
+    left: -35px;
 }
