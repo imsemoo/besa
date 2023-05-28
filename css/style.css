@@ -5000,7 +5000,8 @@ input.search {
 }
 
 .profile-banner .relative-box-about {
-    left: -35px;
+    left: -15px;
+    top: 120px;
 }
 
 .profile-banner .grid-container-profile {
@@ -5059,7 +5060,9 @@ input.search {
     color: #FFFFFF;
     margin-bottom: 45px;
 }
-
+.profile-banner .status.online{
+    background: #33CA94;
+}
 .profile-banner .grid-container-profile .left-box .btn {
     font-family: 'Poppins';
     font-style: normal;
@@ -5097,3 +5100,8 @@ input.search {
 }
 
 /* End  My Profile Page*/
+
+.school-councillors-profile .relative-box-about {
+    left: -15px;
+    top: 120px;
+}
