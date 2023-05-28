@@ -318,6 +318,7 @@ button {
     -ms-flex-pack: center;
     justify-content: center;
     font-family: 'Poppins';
+    color: #fff;
 }
 
 .form .form-area {
@@ -4591,11 +4592,12 @@ input.search {
     overflow: visible;
 }
 
-
 /*New Css 25/5/2023 By En*/
 
 /*Start study broad guidance*/
 .study-broad-guidance {
+    background: -webkit-gradient(linear, left top, left bottom, from(#DEDEDE), color-stop(47.92%, rgba(217, 217, 217, 0.3)));
+    background: -o-linear-gradient(top, #DEDEDE 0%, rgba(217, 217, 217, 0.3) 47.92%);
     background: linear-gradient(180deg, #DEDEDE 0%, rgba(217, 217, 217, 0.3) 47.92%);
 }
 
@@ -4638,6 +4640,8 @@ input.search {
 }
 
 .contaienr-conditions {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 70px 0 0;
     grid-gap: 12px;
@@ -4659,6 +4663,7 @@ input.search {
     left: 50%;
     top: -51px;
     background: #33CA94;
+    -webkit-box-shadow: 7px 3px 1px rgba(0, 0, 0, 0.22);
     box-shadow: 7px 3px 1px rgba(0, 0, 0, 0.22);
     border-radius: 50px;
     transform: translateX(-50%);
@@ -4666,8 +4671,14 @@ input.search {
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -4704,6 +4715,8 @@ input.search {
     height: 11px;
     border-right: 14px solid #ebebeb;
     border-top: 14px solid #ebebeb;
+    -webkit-transform: translateY(-50%) rotate(45deg);
+    -ms-transform: translateY(-50%) rotate(45deg);
     transform: translateY(-50%) rotate(45deg);
 }
 
@@ -4718,6 +4731,8 @@ input.search {
     height: 25px;
     border-right: 12px solid #ffffff;
     border-top: 12px solid #ffffff;
+    -webkit-transform: translateY(-50%) rotate(45deg);
+    -ms-transform: translateY(-50%) rotate(45deg);
     transform: translateY(-50%) rotate(45deg);
     font-size: 60px;
     color: #ffffff;
@@ -4734,6 +4749,8 @@ input.search {
     height: 15px;
     border-right: 5px solid #33CA94;
     border-top: 5px solid #33CA94;
+    -webkit-transform: translateY(-50%) rotate(45deg);
+    -ms-transform: translateY(-50%) rotate(45deg);
     transform: translateY(-50%) rotate(45deg);
     font-size: 60px;
     color: #ffffff;
@@ -4758,7 +4775,9 @@ input.search {
 }
 
 .container-icons {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
@@ -4780,8 +4799,15 @@ input.search {
 
 .container-icons .icon-box {
     padding: 24px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -4854,6 +4880,8 @@ input.search {
     letter-spacing: 0.02em;
     color: #fff;
     padding: 10px 14px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
     height: 62px;
 
@@ -4874,7 +4902,11 @@ input.search {
 }
 
 .container-videos {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     grid-gap: 50px;
     margin-bottom: 20px;
@@ -4905,6 +4937,7 @@ input.search {
 }
 
 .Create-account-banner .container-formBox .grid-container {
+    -ms-grid-columns: 3fr 3fr;
     grid-template-columns: 3fr 3fr;
 }
 
@@ -4919,6 +4952,7 @@ input.search {
 }
 
 .Create-account-banner .container-submit {
+    -ms-grid-columns: 56% 50px 36%;
     grid-template-columns: 56% 36%;
     grid-gap: 50px;
     padding: 0;
@@ -4934,6 +4968,7 @@ input.search {
 }
 
 .login .grid-container {
+    -ms-grid-columns: 1fr !important;
     grid-template-columns: 1fr !important;
 }
 
@@ -4946,6 +4981,7 @@ input.search {
     border: 1px solid #2575FC !important;
 
 }
+
 .mr {
     padding-right: 25px;
 }
@@ -4956,6 +4992,7 @@ input.search {
 
 /* End Create an account*/
 
+/* Start My Profile Page */
 
 .profile-banner .relative-dots-about {
     top: 35px;
@@ -4965,3 +5002,98 @@ input.search {
 .profile-banner .relative-box-about {
     left: -35px;
 }
+
+.profile-banner .grid-container-profile {
+    padding: 50px 0 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-gap: 20px 115px;
+}
+
+.profile-banner .grid-container-profile .left-box {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    place-items: center;
+}
+
+.profile-banner .grid-container-profile .circle-img {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.profile-banner .grid-container-profile .name-profile {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #2575FC;
+}
+
+.profile-banner .status {
+    background: #E3B505;
+    border-radius: 10px;
+    width: 199px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+}
+
+.profile-banner .grid-container-profile .left-box .btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    padding: 15px 30px;
+}
+
+.profile-banner .container-formBox.blue-border {
+    padding: 0 55px;
+    margin: 0;
+}
+
+.listOfPage li {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    border-bottom: 1px dashed #E7E7E9;
+}
+
+.listOfPage li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #696F79;
+    padding: 16px;
+    width: 100%;
+
+}
+
+/* End  My Profile Page*/
