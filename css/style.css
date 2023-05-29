@@ -5112,12 +5112,15 @@ input.search {
     left: -15px;
     top: 120px;
 }
-.app-support-banner{
+
+.app-support-banner {
     padding-bottom: 50px;
 }
-.app-support-banner .background-banner-color{
+
+.app-support-banner .background-banner-color {
     margin-bottom: 30px;
 }
+
 .descrpBannar {
     margin-top: 20px;
     font-family: 'Poppins';
@@ -5180,4 +5183,25 @@ input.search {
     line-height: 18px;
     color: #8692A6;
 
+}
+
+.partiner-banner .relative-box-about h1 {
+    font-size: 113px;
+    top: 30px;
+    left: -35px;
+}
+
+.partiner-banner .relative-box-about {
+    left: 0px;
+    top: 120px;
+}
+
+.partiner-banner .title-banner-blue {
+    height: 104px;
+}
+
+.partiner-banner .title-banner-blue h3 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 63px;
 }
