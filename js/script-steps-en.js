@@ -63,7 +63,6 @@ function updateStep(stepIndex) {
     // Hide all steps
     for (let i = 0; i < steps.length; i++) {
         steps[i].classList.remove("active");
-        timelineItems[i].classList.remove("active");
     }
 
     // Show the current step
@@ -96,13 +95,17 @@ function nextStep() {
     }
 }
 
-// Function to go to the previous step
-function prevStep() {
+ // Function to go to the previous step
+ function prevStep() {
     if (currentStep > 0) {
-        currentStep--;
-        updateStep(currentStep);
+      // Delete activity from current step
+      const currentTimelineItem = timelineItems[currentStep];
+      currentTimelineItem.classList.remove("active"); 
+
+      currentStep--;
+      updateStep(currentStep);
     }
-}
+  }
 
 // Event listeners for button clicks
 nextBtn.addEventListener("click", nextStep);

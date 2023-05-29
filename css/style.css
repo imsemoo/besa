@@ -5321,7 +5321,7 @@ input.search {
 /*Start Steps En*/
 
 
-.steps-en .step-container {
+.steps-en .steps-background {
     position: relative;
     padding: 100px 70px;
     background: #2C3041;
@@ -5342,18 +5342,27 @@ input.search {
 
 .steps-en #buttons {
     margin-top: 20px;
-    text-align: right;
+    text-align: center;
 }
 
 .steps-en #prevBtn,
 .steps-en #nextBtn {
-    padding: 10px 20px;
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    width: 111px;
+    height: 45px;
+    background: #33CA94;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .steps-en #prevBtn {
@@ -5362,7 +5371,7 @@ input.search {
 
 .steps-en #nextBtn:hover,
 .steps-en #prevBtn:hover {
-    background-color: #45a049;
+    background-color: #E3B505;
 }
 
 .steps-en .title {
@@ -5390,10 +5399,6 @@ input.search {
     margin: 0 8px;
 }
 
-.steps-en .timeline-item.active {
-    color: #fff;
-    border-bottom: 4px dashed #33ca94;
-}
 
 
 .steps-en .timeline-item::after {
@@ -5409,9 +5414,7 @@ input.search {
 
 }
 
-.steps-en .timeline-item.active::after {
-    color: #33CA94;
-}
+
 .steps-en .timeline-item span {
     font-family: 'Poppins';
     font-style: normal;
@@ -5422,5 +5425,39 @@ input.search {
     top: -40px;
     left: 50%;
     transform: translateX(-50%);
+    color: #9F9FA8;
+}
+
+.steps-en .timeline-item.active {
+    border-bottom: 4px dashed #33ca94;
+}
+.steps-en .timeline-item.active::after {
+    color: #33CA94;
+}
+.steps-en .timeline-item.active span{
     color: #FFFFFF;
+
+}
+
+
+.steps-en .timeline-item.active:nth-child(2){
+    border-bottom: 4px dashed #FF5151;
+
+}
+.steps-en .timeline-item.active:nth-child(2):after{
+    color: #FF5151
+}
+.steps-en .timeline-item.active:nth-child(3){
+    border-bottom: 4px dashed #E3B505;
+
+}
+.steps-en .timeline-item.active:nth-child(3):after{
+    color: #E3B505
+}
+.steps-en .timeline-item.active:nth-child(4){
+    border-bottom: 4px dashed #2575FC;
+
+}
+.steps-en .timeline-item.active:nth-child(4):after{
+    color: #2575FC
 }
