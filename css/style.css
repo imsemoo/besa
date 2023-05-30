@@ -4587,12 +4587,13 @@ input.search {
     overflow: visible;
 }
 
+
 /*New Css 25/5/2023 By En*/
 
 /*Start study broad guidance*/
 .study-broad-guidance {
-    background: -webkit-gradient(linear, left top, left bottom, from(#DEDEDE), color-stop(47.92%, rgba(217, 217, 217, 0.3)));
     background: -o-linear-gradient(top, #DEDEDE 0%, rgba(217, 217, 217, 0.3) 47.92%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#DEDEDE), color-stop(47.92%, rgba(217, 217, 217, 0.3)));
     background: linear-gradient(180deg, #DEDEDE 0%, rgba(217, 217, 217, 0.3) 47.92%);
 }
 
@@ -5076,8 +5077,15 @@ input.search {
 }
 
 .listOfPage li {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
     flex-flow: column;
     border-bottom: 1px dashed #E7E7E9;
 }
@@ -5149,8 +5157,14 @@ input.search {
 }
 
 .app-support-banner .container-submit {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: start;
     padding: 0;
 
@@ -5196,7 +5210,11 @@ input.search {
 }
 
 .container-iconsPartners {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     grid-gap: 115px;
     padding: 35px 0;
@@ -5229,6 +5247,8 @@ input.search {
 }
 
 .line-stained {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 
 }
@@ -5259,7 +5279,12 @@ input.search {
 }
 
 .partiner-banner .container-submit {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
     flex-flow: column;
     grid-gap: 30px;
     padding: 10px 0;
@@ -5308,12 +5333,23 @@ input.search {
     font-size: 40px;
     line-height: 60px;
     color: #FFFFFF;
+    margin-bottom: 30px;
+
 }
 
 .leading-study .grid-contaienr {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    grid-gap: 10px;
+    margin-bottom: 55px;
+
 }
 
 
@@ -5323,7 +5359,7 @@ input.search {
 
 .steps-en .steps-background {
     position: relative;
-    padding: 100px 70px;
+    padding: 75px 70px 40px;
     background: #2C3041;
     border-radius: 40px;
 }
@@ -5384,7 +5420,11 @@ input.search {
 }
 
 .steps-en .timeline {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     margin-bottom: 20px;
     list-style: none;
@@ -5393,6 +5433,8 @@ input.search {
 
 .steps-en .timeline-item {
     position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
     flex: 1;
     border-bottom: 4px dashed #696f79;
     height: 0px;
@@ -5424,6 +5466,8 @@ input.search {
     position: absolute;
     top: -40px;
     left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%);
     color: #9F9FA8;
 }
@@ -5483,7 +5527,9 @@ input.search {
     background: #e7e7e9;
     border-radius: 10px;
     padding: 16px 24px;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 31px 1fr 31px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 31px;
     max-width: 844px;
@@ -5493,7 +5539,7 @@ input.search {
 }
 
 .steps-en .step .grid-contaienr::-webkit-scrollbar {
-    width: 8px;
+    width: 10px;
     /* Set the width of the scrollbar */
 }
 
@@ -5501,15 +5547,11 @@ input.search {
     background-color: #fff;
     /* Set the color of the scrollbar thumb */
     border-radius: 4px;
-    /* Set the border radius of the scrollbar thumb */
 }
 
 .steps-en .step .grid-contaienr::-webkit-scrollbar-track {
     background-color: #33CA94;
     /* Set the color of the scrollbar track */
-    margin-left: 20px;
-    /* Add a margin to separate the scrollbar track from the div */
-    padding: 5px;
 }
 
 .steps-en .step .grid-contaienr .box {
@@ -5529,6 +5571,7 @@ input.search {
 }
 
 .steps-en .step .contaienr-checkbox {
+    -ms-grid-columns: 1fr 25px 1fr 25px 1fr 25px 1fr 25px 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     width: 100%;
     height: unset;
@@ -5537,7 +5580,11 @@ input.search {
 }
 
 .steps-en .step .contaienr-checkbox .checkbox-green {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -5549,6 +5596,8 @@ input.search {
     line-height: 18px;
     letter-spacing: 0.2px;
     color: #696F79;
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
 
 }
@@ -5586,11 +5635,15 @@ input.search {
     /* Adjust the vertical position of the pseudo-element */
     left: 50%;
     /* Adjust the horizontal position of the pseudo-element */
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     /* Center the pseudo-element */
     color: #ffffff;
     opacity: 0;
     /* Hide the checkbox arrow by default */
+    -webkit-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
     transition: opacity 0.3s ease;
     /* Add a transition effect to the checkbox arrow */
     font-size: 18px;
@@ -5602,7 +5655,10 @@ input.search {
     /* Show the checkbox arrow when the checkbox is checked */
 }
 
-.steps-en #slider_range {
+.steps-en #slider_range_blue {
+    width: 100%;
+    margin-bottom: 15px;
+    border: none;
     height: 4px;
     background: #8692A6;
 
@@ -5629,4 +5685,81 @@ input.search {
     line-height: 35px;
     margin-bottom: 14px;
     color: #FFFFFF;
+}
+
+.range-wrapper .minAndMax {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.range-wrapper .min-name,
+.range-wrapper .max-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #9F9FA8;
+}
+
+
+
+/**/
+
+.leading-study .grid-contaienr .feature {
+    border: 8px solid #8692A6;
+    border-radius: 40px;
+    padding: 30px 20px;
+    width: 310px;
+
+}
+
+.leading-study .grid-contaienr .feature .title {
+    font-size: 28px;
+    font-weight: 900;
+    color: #FFFFFF;
+    line-height: 35.2px;
+    text-align: center;
+
+}
+
+.leading-study .grid-contaienr .feature-blue {
+    border-color: #009DBF;
+
+}
+
+.leading-study .grid-contaienr .feature-blue .title {
+    color: #242F65;
+
+}
+.leading-study .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 25px;
+}
+.leading-study .buttons .btn {
+    padding: 10px 15px;
+    background: #2C3041;
+    border-radius: 10px;
+    width: 334px;
+    height: 88px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.leading-study .buttons  .btn-apply{
+    color: #00B9BF;
+
 }
