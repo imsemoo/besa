@@ -2210,9 +2210,9 @@ p.descrp {
     margin-bottom: 15px;
 }
 
-.container-formBox .form-area textarea,
-.container-formBox .grid-container select,
-.container-formBox .grid-container input {
+.form-area textarea,
+.form-area select,
+.form-area input {
     border: 1px solid #33CA94;
     border-radius: 6px;
     height: 64px;
@@ -5431,33 +5431,158 @@ input.search {
 .steps-en .timeline-item.active {
     border-bottom: 4px dashed #33ca94;
 }
+
 .steps-en .timeline-item.active::after {
     color: #33CA94;
 }
-.steps-en .timeline-item.active span{
+
+.steps-en .timeline-item.active span {
     color: #FFFFFF;
 
 }
 
 
-.steps-en .timeline-item.active:nth-child(2){
+.steps-en .timeline-item.active:nth-child(2) {
     border-bottom: 4px dashed #FF5151;
 
 }
-.steps-en .timeline-item.active:nth-child(2):after{
+
+.steps-en .timeline-item.active:nth-child(2):after {
     color: #FF5151
 }
-.steps-en .timeline-item.active:nth-child(3){
+
+.steps-en .timeline-item.active:nth-child(3) {
     border-bottom: 4px dashed #E3B505;
 
 }
-.steps-en .timeline-item.active:nth-child(3):after{
+
+.steps-en .timeline-item.active:nth-child(3):after {
     color: #E3B505
 }
-.steps-en .timeline-item.active:nth-child(4){
+
+.steps-en .timeline-item.active:nth-child(4) {
     border-bottom: 4px dashed #2575FC;
 
 }
-.steps-en .timeline-item.active:nth-child(4):after{
+
+.steps-en .timeline-item.active:nth-child(4):after {
     color: #2575FC
 }
+
+.steps-en .form-area {
+    text-align: center;
+}
+
+.steps-en .form-area select {
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    max-width: 350px;
+}
+
+.steps-en .step .grid-contaienr {
+    background: #e7e7e9;
+    border-radius: 10px;
+    padding: 16px 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 31px;
+    max-width: 844px;
+    height: 169px;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+.steps-en .step .grid-contaienr::-webkit-scrollbar {
+    width: 8px;
+    /* Set the width of the scrollbar */
+}
+
+.steps-en .step .grid-contaienr::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    /* Set the color of the scrollbar thumb */
+    border-radius: 4px;
+    /* Set the border radius of the scrollbar thumb */
+}
+
+.steps-en .step .grid-contaienr::-webkit-scrollbar-track {
+    background-color: #33CA94;
+    /* Set the color of the scrollbar track */
+    margin-left: 20px;
+    /* Add a margin to separate the scrollbar track from the div */
+    padding: 5px;
+}
+
+.steps-en .step .grid-contaienr .box {
+    background: #FFFFFF;
+    border-radius: 10px;
+    text-align: center;
+    padding: 4px 20px;
+}
+
+.steps-en .step .grid-contaienr .box h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #33CA94;
+}
+
+.steps-en .step .contaienr-checkbox {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: unset;
+    overflow: unset;
+    grid-gap: 25px;
+}
+
+.steps-en .step .contaienr-checkbox .checkbox-green {
+    display: flex;
+    align-items: center;
+}
+
+.contaienr-checkbox label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #696F79;
+    width: max-content;
+
+}
+
+
+
+
+.checkbox-green input[type="checkbox"] {
+    -webkit-appearance: none; /* Remove default checkbox appearance for WebKit browsers */
+    -moz-appearance: none; /* Remove default checkbox appearance for Mozilla Firefox */
+    appearance: none; /* Remove default checkbox appearance for other browsers */
+    background-color: #33ca94; /* Set the background color to green */
+    border-radius: 4px; /* Add border radius for a rounded checkbox */
+    outline: none; /* Remove the outline when checkbox is focused */
+    position: relative; /* Position the checkbox relatively for pseudo-element */
+    cursor: pointer; /* Change cursor to pointer when hovering over the checkbox */
+  }
+  
+  .checkbox-green input[type="checkbox"]::before {
+    content: "\f00c"; /* Create a pseudo-element for the checkbox */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute; /* Position the pseudo-element absolutely */
+    top: 50%; /* Adjust the vertical position of the pseudo-element */
+    left: 50%; /* Adjust the horizontal position of the pseudo-element */
+    transform: translate(-50%, -50%); /* Center the pseudo-element */
+    color: #ffffff;
+    opacity: 0; /* Hide the checkbox arrow by default */
+    transition: opacity 0.3s ease; /* Add a transition effect to the checkbox arrow */
+    font-size: 18px;
+
+  }
+  
+  .checkbox-green input[type="checkbox"]:checked::before {
+    opacity: 1; /* Show the checkbox arrow when the checkbox is checked */
+  }
+  
