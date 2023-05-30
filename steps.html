@@ -7,6 +7,10 @@
     <title>Steps</title>
     <link rel="stylesheet" href="./css/all.min.css">
 
+       <!-- add This File (range slider)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.2/nouislider.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.2/nouislider.min.css" />
+
     <link rel="stylesheet" href="./css/normalize.min.css">
     <link rel="stylesheet" href="css/timeline.css">
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
@@ -218,13 +222,42 @@
                         <div id="step4" class="step">
                             <!-- Step 4 content here -->
                             <h2 class="title">WHAT’S YOUR BUDGET?</h2>
+                            <div class="range-wrapper">
+                                <div class="output-range">
+                                    <span id="slider-value">$1000 </span>
+                                    <span id="max-val">$100,000 </span>
 
-                        </div>
+                                </div>
+                                <div id="slider_range"></div>
+                                <span style="font-size: 10px;">min </span>
+                                <script>
+                                         var slider = document.getElementById('slider_range_blue');
+                                        var sliderValueElement = document.getElementById('slider-value');
+                                        var maxValElement = document.getElementById('max-val');
+
+                                        noUiSlider.create(slider, {
+                                            start: [500, 8500],
+                                            connect: true,
+                                            range: {
+                                            min: 0,
+                                            max: 10000
+                                            }
+                                        });
+
+                                        slider.noUiSlider.on('update', function(values, handle) {
+                                            sliderValueElement.innerHTML = "£ " + Math.round(values[0]);
+                                            maxValElement.innerHTML = "£" + Math.round(values[1]);
+                                        });
+
+                                        
+                                </script>                                  
+          
+                            </div>
                     </div>
                    <!-- Buttons to navigate between steps -->
                     <div id="buttons">
                         <button id="prevBtn">Previous</button>
-                        <button id="nextBtn">Next</button>
+                        <button id="nextBtn">Next <i class="fa-solid fa-chevron-right"></i></button>
                     </div>
                 </div>
             </div>

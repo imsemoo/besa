@@ -5557,32 +5557,76 @@ input.search {
 
 
 .checkbox-green input[type="checkbox"] {
-    -webkit-appearance: none; /* Remove default checkbox appearance for WebKit browsers */
-    -moz-appearance: none; /* Remove default checkbox appearance for Mozilla Firefox */
-    appearance: none; /* Remove default checkbox appearance for other browsers */
-    background-color: #33ca94; /* Set the background color to green */
-    border-radius: 4px; /* Add border radius for a rounded checkbox */
-    outline: none; /* Remove the outline when checkbox is focused */
-    position: relative; /* Position the checkbox relatively for pseudo-element */
-    cursor: pointer; /* Change cursor to pointer when hovering over the checkbox */
-  }
-  
-  .checkbox-green input[type="checkbox"]::before {
-    content: "\f00c"; /* Create a pseudo-element for the checkbox */
+    -webkit-appearance: none;
+    /* Remove default checkbox appearance for WebKit browsers */
+    -moz-appearance: none;
+    /* Remove default checkbox appearance for Mozilla Firefox */
+    appearance: none;
+    /* Remove default checkbox appearance for other browsers */
+    background-color: #33ca94;
+    /* Set the background color to green */
+    border-radius: 4px;
+    /* Add border radius for a rounded checkbox */
+    outline: none;
+    /* Remove the outline when checkbox is focused */
+    position: relative;
+    /* Position the checkbox relatively for pseudo-element */
+    cursor: pointer;
+    /* Change cursor to pointer when hovering over the checkbox */
+}
+
+.checkbox-green input[type="checkbox"]::before {
+    content: "\f00c";
+    /* Create a pseudo-element for the checkbox */
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
-    position: absolute; /* Position the pseudo-element absolutely */
-    top: 50%; /* Adjust the vertical position of the pseudo-element */
-    left: 50%; /* Adjust the horizontal position of the pseudo-element */
-    transform: translate(-50%, -50%); /* Center the pseudo-element */
+    position: absolute;
+    /* Position the pseudo-element absolutely */
+    top: 50%;
+    /* Adjust the vertical position of the pseudo-element */
+    left: 50%;
+    /* Adjust the horizontal position of the pseudo-element */
+    transform: translate(-50%, -50%);
+    /* Center the pseudo-element */
     color: #ffffff;
-    opacity: 0; /* Hide the checkbox arrow by default */
-    transition: opacity 0.3s ease; /* Add a transition effect to the checkbox arrow */
+    opacity: 0;
+    /* Hide the checkbox arrow by default */
+    transition: opacity 0.3s ease;
+    /* Add a transition effect to the checkbox arrow */
     font-size: 18px;
 
-  }
-  
-  .checkbox-green input[type="checkbox"]:checked::before {
-    opacity: 1; /* Show the checkbox arrow when the checkbox is checked */
-  }
-  
+}
+
+.checkbox-green input[type="checkbox"]:checked::before {
+    opacity: 1;
+    /* Show the checkbox arrow when the checkbox is checked */
+}
+
+.steps-en #slider_range {
+    height: 4px;
+    background: #8692A6;
+
+}
+
+.steps-en .noUi-horizontal .noUi-handle {
+    background: #2575FC;
+    width: 15px;
+    height: 15px;
+    top: -6px;
+
+}
+
+.steps-en .noUi-connect {
+    background: #2575FC;
+
+}
+
+.steps-en .output-range span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 14px;
+    color: #FFFFFF;
+}

@@ -25,7 +25,7 @@ function showStep(stepIndex) {
     if (stepIndex === steps.length - 1) {
         nextBtn.innerHTML = "Submit"; // Change next button text on last step
     } else {
-        nextBtn.innerHTML = "Next";
+        nextBtn.innerHTML = "Next" ;
     }
 }
 
@@ -77,9 +77,9 @@ function updateStep(stepIndex) {
     }
 
     if (stepIndex === steps.length - 1) {
-        nextBtn.innerHTML = "Submit"; // Change next button text on last step
+        nextBtn.innerHTML = "Explore"; // Change next button text on last step
     } else {
-        nextBtn.innerHTML = "Next";
+        nextBtn.innerHTML = "Next" + ' <i class="fa-solid fa-chevron-right"></i>' ;
     }
 }
 
