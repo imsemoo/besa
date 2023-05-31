@@ -825,7 +825,7 @@
     .register-banner .relative-box-about h2,
     .servicesSec .relative-box-about h2 {
         font-size: 32px;
-        line-height: 32px;
+        line-height: 1.4;
         margin-top: 30px;
     }
 
@@ -1190,6 +1190,83 @@
 
     .sectionTimeline .container-item-data .text {
         padding-top: 0;
+    }
+
+    .steps-en .steps-background {
+        padding: 60px 15px 20px;
+    }
+
+    .steps-en .timeline-item span {
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .steps-en .title {
+        font-size: 22px;
+        margin-bottom: 10px;
+        line-height: 1.4;
+
+    }
+
+    .steps-en #buttons {
+        margin-top: 0;
+    }
+
+    .steps-en .step .grid-contaienr {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .range-wrapper .min-name,
+    .range-wrapper .max-name,
+    .steps-en .output-range span {
+
+        font-size: 15px;
+
+    }
+
+    .profile-banner .grid-container-profile {
+        flex-flow: column;
+        grid-gap: 30px;
+        padding: 20px 0;
+
+    }
+
+    .profile-banner .container-formBox.blue-border {
+        padding: 0 25px;
+        margin: 0 10px;
+    }
+
+    .partiner-banner .title-banner-blue {
+        height: unset;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .partiner-banner .title-banner-blue h3 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.4;
+    }
+    .container-iconsPartners{
+        flex-flow: column;
+        grid-gap: 30px;
+            align-items: center;
+
+    }
+    .Create-account-banner .container-formBox .grid-container {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+    .Create-account-banner .container-submit {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        padding: 0;
+    }
+    .container-submit .checkboxes div label {
+       
+        line-height: 1.2;
+        width: 90%;
     }
 }
 
