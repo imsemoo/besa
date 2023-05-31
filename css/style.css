@@ -5841,10 +5841,12 @@ input.search {
     line-height: 60px;
     margin-bottom: 0;
 }
-.careers .container-careers{
+
+.careers .container-careers {
     justify-content: space-between;
 
 }
+
 .careers .content-career>h4 {
     font-family: 'Merriweather';
     font-style: normal;
@@ -5944,17 +5946,20 @@ input.search {
     background: #FFFFFF;
 
 }
-.careers .circular-pictures .yellow-circle{
-   border-color: #E3B505;
-   top: 50%;
-   transform:;
-   transform: translate(15%, 37%);
+
+.careers .circular-pictures .yellow-circle {
+    border-color: #E3B505;
+    top: 50%;
+    transform: ;
+    transform: translate(15%, 37%);
 
 }
-.careers .circular-pictures .red-circle{
+
+.careers .circular-pictures .red-circle {
     border-color: #FF5151;
     transform: translate(105%, 50%);
 }
+
 .careers .circular-pictures div p {
     font-family: 'Poppins';
     font-style: normal;
@@ -5966,3 +5971,21 @@ input.search {
 }
 
 /* End Careers */
+.sectionTimeline {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #C4C4C4 100%);
+    padding: 10px 0;
+
+}
+
+.sectionTimeline .container-item-data {
+    grid-template-columns: 1fr 1fr;
+}
+.sectionTimeline .container-item-data .text{
+    padding-top: 65px;
+}
+.container-item-data .text h4.title {
+    margin-bottom: 20px;
+}
+.timeline-item{
+    height: unset;
+}
