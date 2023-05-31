@@ -1078,6 +1078,119 @@
         flex-flow: column;
         place-items: stretch;
     }
+
+    /**Start New Css By En 31/5/2023 */
+    .title-banner-black {
+        height: unset;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .relative-box-about {
+        position: unset;
+
+    }
+
+    .relative-box-about h1 {
+        display: none;
+    }
+
+    .relative-box-about h2 {
+        font-size: 28px;
+        margin: 20px 0;
+        line-height: 1.2;
+
+    }
+
+    .leading-study .grid-contaienr {
+        flex-flow: column;
+    }
+
+    .leading-study .grid-contaienr .feature {
+        display: flex;
+        align-items: center;
+        height: 200px;
+    }
+
+    .leading-study .grid-contaienr .feature .title {
+        margin: 0;
+    }
+
+    .leading-study .grid-contaienr .feature .title br {
+        display: none;
+    }
+
+    .leading-study .buttons {
+        flex-flow: column;
+
+    }
+
+    .blogs>.container>.row .col-md-12>.display-flex {
+        flex-flow: column;
+
+    }
+
+    .blogs .box-blog {
+        flex-flow: column;
+        grid-gap: 10px;
+        text-align: center;
+
+    }
+
+    .blogs .box-blog .content-blog p br {
+        display: none;
+    }
+
+    .careers .title {
+        font-size: 28px;
+    }
+
+    .careers .content-career>h4 {
+        font-size: 18px;
+
+    }
+
+    .careers .content-career>h3 {
+        font-size: 22px;
+
+    }
+
+    .careers .content-career .grid-3col {
+        flex-flow: column;
+        grid-gap: 45px;
+
+    }
+
+    .careers .container-careers {
+        flex-flow: column;
+    }
+
+    .careers .circular-pictures {
+        position: relative;
+        padding: 20px;
+    }
+
+    .careers .circular-pictures div p {
+
+        font-size: 12px !important;
+    }
+
+    .careers .circular-pictures div {
+        display: none;
+    }
+
+    .timeline-horizontal .timeline-dots-wrap {
+        display: none;
+    }
+
+    .main-banner {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .sectionTimeline .container-item-data .text {
+        padding-top: 0;
+    }
 }
 
 @media (max-width: 767px) {
