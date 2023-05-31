@@ -321,6 +321,15 @@ button {
     color: #fff;
 }
 
+.btn-blue {
+    background: #2575FC;
+    border-radius: 10px;
+    padding: 5px 15px;
+    width: max-content;
+    height: 40px;
+
+}
+
 .form-area {
     margin-bottom: 24px;
     position: relative;
@@ -5738,12 +5747,14 @@ input.search {
     color: #242F65;
 
 }
+
 .leading-study .buttons {
     display: flex;
     align-items: center;
     justify-content: center;
     grid-gap: 25px;
 }
+
 .leading-study .buttons .btn {
     padding: 10px 15px;
     background: #2C3041;
@@ -5759,7 +5770,199 @@ input.search {
     color: #FFFFFF;
 }
 
-.leading-study .buttons  .btn-apply{
+.leading-study .buttons .btn-apply {
     color: #00B9BF;
 
 }
+
+/* Start Blogs */
+.blogs {
+    padding: 45px 0;
+    background: #FFFFFF;
+}
+
+.blogs .title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 40px;
+
+}
+
+.blogs>.container>.row .col-md-12>.display-flex {
+    grid-gap: 20px 100px;
+    justify-content: center;
+
+}
+
+.blogs .box-blog {
+    align-items: center;
+}
+
+.blogs .box-blog img {
+    border-radius: 32px;
+}
+
+.blogs .box-blog .content-blog p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #8692A6;
+    margin-bottom: 12px;
+}
+
+.blogs .box-blog .content-blog a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #33CA94;
+    display: block;
+}
+
+/* End Blogs */
+
+/* Start Careers */
+.careers {
+    padding: 60px 0;
+}
+
+.careers .title {
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 0;
+}
+.careers .container-careers{
+    justify-content: space-between;
+
+}
+.careers .content-career>h4 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    color: #242F65;
+    margin-bottom: 52px;
+
+}
+
+.careers .content-career>h3 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    color: #2575FC;
+    margin-bottom: 20px;
+}
+
+.careers .content-career .grid-3col {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.careers .content-career .box-career {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 12px 30px;
+    position: relative;
+    text-align: center;
+}
+
+.careers .content-career .box-career p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #767B92;
+}
+
+.careers .content-career .box-career span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #767B92;
+    margin: 5px 0 20px;
+    display: block;
+}
+
+.careers .content-career .box-career .btn {
+    position: absolute;
+    bottom: -39px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    height: 39px;
+    padding: 0 30px;
+
+}
+
+.careers .circular-pictures {
+    position: relative;
+}
+
+.careers .circular-pictures .dots-left-circ {
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+
+.careers .circular-pictures div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+    border: 15px solid #33CA94;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-35%, -30%);
+    background: #FFFFFF;
+
+}
+.careers .circular-pictures .yellow-circle{
+   border-color: #E3B505;
+   top: 50%;
+   transform:;
+   transform: translate(15%, 37%);
+
+}
+.careers .circular-pictures .red-circle{
+    border-color: #FF5151;
+    transform: translate(105%, 50%);
+}
+.careers .circular-pictures div p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+/* End Careers */
