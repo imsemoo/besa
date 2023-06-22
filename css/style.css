@@ -5980,13 +5980,16 @@ input.search {
 .sectionTimeline .container-item-data {
     grid-template-columns: 1fr 1fr;
 }
-.sectionTimeline .container-item-data .text{
+
+.sectionTimeline .container-item-data .text {
     padding-top: 65px;
 }
+
 .container-item-data .text h4.title {
     margin-bottom: 20px;
 }
-.timeline-item{
+
+.timeline-item {
     height: unset;
 }
 
@@ -5994,7 +5997,8 @@ input.search {
 .apply-now-btn-header {
     margin-left: auto;
 }
-#shadow-host-companion{
+
+#shadow-host-companion {
     padding: 0;
 }
 
@@ -6021,4 +6025,94 @@ input[type="search"] {
 
 input[type="search"]:focus {
     background-color: #fff;
+}
+
+.navbar-mobile {
+    display: none;
+}
+
+.apply-now-btn-header {
+    display: flex;
+    grid-gap: 23px;
+    align-items: center;
+}
+
+.apply-now-btn-header .SecondaryBtn {
+    padding: 0;
+}
+
+.apply-now-btn-header .SecondaryBtn img {
+    margin: 0;
+}
+
+
+.drop-down .toggle {
+    padding: 8px 10px;
+
+}
+
+.menu-dropdown {
+    display: none;
+    position: absolute;
+    background: rgba(217, 217, 217, 1);
+    border: 1px solid rgba(217, 217, 217, 1);
+    min-width: 121px;
+    z-index: 99;
+    top: 75px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.menu-dropdown li {
+    padding: 5px 20px 5px 10px !important;
+    width: 100%;
+
+}
+
+.menu-dropdown li a {
+    color: rgba(118, 123, 146, 1) !important;
+    font-size: 13.5px !important;
+    border-bottom: 1px solid rgba(197, 197, 197, 1);
+    width: 100%;
+    padding: 5px 0;
+}
+
+.menu-dropdown li:last-child a {
+    border: none;
+}
+
+.navbar .links li {
+    position: relative;
+}
+
+.navbar .links li:hover .menu-dropdown {
+    display: block;
+}
+
+.navbar .links li:hover a,
+
+
+.navbar .links li:hover .toggle i {
+    color: rgba(229, 37, 34, 1);
+}
+.gridContainer-navbar{
+    grid-gap: 23px;
+    justify-content: start;
+
+}
+.navbar .links{
+    display: flex;
+    justify-content: space-around;
+    width: 41%;
+}
+@media (max-width: 767px) {
+    .navbar-mobile {
+        display: block;
+    }
+    .apply-now-btn-header {
+        display: none;
+    }
 }
