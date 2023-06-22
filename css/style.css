@@ -6054,7 +6054,7 @@ input[type="search"]:focus {
 .menu-dropdown {
     display: none;
     position: absolute;
-    background: rgba(217, 217, 217, 1);
+    background: rgba(231, 231, 233, 1);
     border: 1px solid rgba(217, 217, 217, 1);
     min-width: 121px;
     z-index: 99;
