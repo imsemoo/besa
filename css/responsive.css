@@ -1248,23 +1248,27 @@
         font-size: 28px;
         line-height: 1.4;
     }
-    .container-iconsPartners{
+
+    .container-iconsPartners {
         flex-flow: column;
         grid-gap: 30px;
-            align-items: center;
+        align-items: center;
 
     }
+
     .Create-account-banner .container-formBox .grid-container {
         grid-template-columns: 1fr;
         grid-gap: 0;
     }
+
     .Create-account-banner .container-submit {
         grid-template-columns: 1fr;
         grid-gap: 0;
         padding: 0;
     }
+
     .container-submit .checkboxes div label {
-       
+
         line-height: 1.2;
         width: 90%;
     }
@@ -1278,5 +1282,34 @@
         -moz-transform: translateX(100%);
         -ms-transform: translateX(100%);
         -o-transform: translateX(100%);
+    }
+
+    .services-rendered .icon-circle {
+        padding: 8px;
+    }
+
+    .services-rendered .line-ellipse-en {
+        padding-left: 0;
+    }
+
+    .services-rendered .line-ellipse-en::after {
+        left: 27px;
+    }
+    .free-meating .grid-meating{
+        flex-flow: column;
+    }
+    .free-meating .image, .free-meating .text{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .free-meating .image, .free-meating .text h2{
+        font-size: 28px;
+    }
+     .free-meating .text h2 br{
+        display: none;
+        
+    }
+    .free-meating{
+        padding-bottom: 60px;
     }
 }

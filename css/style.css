@@ -6098,21 +6098,131 @@ input[type="search"]:focus {
 .navbar .links li:hover .toggle i {
     color: rgba(229, 37, 34, 1);
 }
-.gridContainer-navbar{
+
+.gridContainer-navbar {
     grid-gap: 23px;
     justify-content: start;
 
 }
-.navbar .links{
+
+.navbar .links {
     display: flex;
     justify-content: space-around;
     width: 41%;
 }
+
 @media (max-width: 767px) {
     .navbar-mobile {
         display: block;
     }
+
     .apply-now-btn-header {
         display: none;
     }
+}
+
+.servicesSec {
+    background: #F3F3F3;
+}
+
+.services-rendered .gridServices {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+
+}
+
+.services-rendered .box-icon {
+    position: relative;
+}
+
+.services-rendered .line-ellipse-en {
+    position: relative;
+    padding-left: 55px;
+
+}
+
+.services-rendered .line-ellipse-en::after {
+    content: "";
+    position: absolute;
+    left: 83px;
+    width: 4px;
+    background: #D9D9D9;
+    height: 100%;
+    top: 0;
+}
+
+.services-rendered .box-icon header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    place-self: self-start;
+    z-index: 9;
+}
+
+.services-rendered .box-icon {
+    flex-flow: column;
+    height: 260px;
+
+}
+
+.services-rendered .icon-circle {
+    background: #F3F3F3;
+}
+
+.services-rendered .box-icon .descrip {
+    padding: 0px 70px;
+}
+
+.services-rendered .box-icon .descrip p strong {
+    color: #242F65;
+    font-weight: 400;
+
+}
+
+.services-rendered .box-icon .descrip p {
+    color: #767B92;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 400;
+    line-height: normal;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.free-meating {
+    padding: 0;
+}
+
+.free-meating .image,
+.free-meating .text {
+    width: 50%;
+}
+
+.free-meating .grid-meating {
+    display: flex;
+    grid-gap: 30px;
+    align-items: center;
+}
+
+.free-meating .text h2 {
+    color: #767B92;
+    font-size: 40px;
+    font-family: "Poppins";
+    font-weight: 700;
+}
+
+.free-meating .text h2 span {
+    color: rgba(51, 202, 148, 1);
+}
+
+.free-meating .text a{
+    width: 167px;
+    border-radius: 20px;
+    height: 45px;
+margin-top: 15px;
 }
