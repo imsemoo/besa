@@ -6571,7 +6571,78 @@ input[type="search"]:focus {
 
 }
 
-.our-partner  .d-flex {
+.our-partner .d-flex {
     justify-content: center;
     grid-gap: 103px;
 }
+
+.title-banner-blue {
+    background: #1565D8 !important;
+    height: 258px !important;
+
+}
+
+.title-banner-blue p {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+
+}
+
+.leading-study {
+    background: #fff;
+}
+
+.leading-study .title-background {
+    border-radius: 20px;
+    background: #242F65;
+    padding: 15px;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: normal;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.leading-study .grid-contaienr .feature-blue {
+    border: 8px solid #8692A6;
+    background: #8692A6;
+}
+
+.leading-study .grid-contaienr .feature .title {
+    color: #2C3041;
+    font-size: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+}
+
+.leading-study .grid-contaienr .feature-blue .title {
+    color: #fff;
+}
+
+.leading-study .buttons .btn {
+
+    color: #FFF;
+    text-align: center;
+    /* Paragraph */
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 291px;
+    height: 45px;
+    border-radius: 10px;
+    background: #2575FC;
+
+}
+
+.leading-study .buttons .btn:last-child{
+    background: #33CA94;}
