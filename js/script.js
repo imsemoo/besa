@@ -11,6 +11,17 @@ $(document).ready(function () {
   });
 
   //
+  // Add click event listener to each question
+  const faqQuestions = document.querySelectorAll(".faq-question");
+  faqQuestions.forEach((question) => {
+    question.addEventListener("click", toggleAnswer);
+  });
+
+  // Function to toggle the display of the answer
+  function toggleAnswer() {
+    const answer = this.nextElementSibling;
+    answer.style.display = answer.style.display === "none" ? "block" : "none";
+  }
   function reveal() {
     var reveals = document.querySelectorAll(".have-animations");
 
@@ -32,6 +43,8 @@ $(document).ready(function () {
   var mainSlider = $(".main-slider");
   var sliderTestimonials = $(".slider-testimonials");
   var customeSlider = $(".custome-slider");
+  var ukslider = $(".ukslider");
+
   mainSlider.owlCarousel({
     items: 1,
     loop: true,
@@ -62,6 +75,14 @@ $(document).ready(function () {
     dots: true,
     nav: false,
     items: 1,
+  });
+
+  ukslider.owlCarousel({
+    items: 1,
+    loop: true,
+    margin: 10,
+    dots: true,
+    nav: false,
   });
 
   // jQuery animated number counter from zero to value

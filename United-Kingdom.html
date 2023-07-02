@@ -26,59 +26,79 @@
                             <img src="./img/red-logo-group-300x212.svg" alt="Logo">
                         </div>
                         <ul class="links">
-                            <li class="active">
-                                <a href="#">Home</a>
+                            <li class="drop-down">
+                                <div class="toggle">
+                                    <i class="fa-solid fa-bars fa-2x"></i>
+                                </div>
+                                <div class="menu-dropdown">
+                                    <ul>
+                                        <li >
+                                            <a href="./home.html">Home</a>
+                                        </li> 
+                                        <li>
+                                            <a href="#">About us</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="./Services.html">Services</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
-                            <li>
-                                <a href="#">About us</a>
-                            </li>
-                            <li class="">
-                                <a href="#">Where To Study</a>
-                            </li>
-                            <li class="">
-                                <a href="#">Services</a>
-                            </li>
+                            
                             <li class="">
                                 <a href="#">Universities</a>
+                                <div class="menu-dropdown">
+                                    <ul>
+                                        <li >
+                                            <a href="#">link 1</a>
+                                        </li> 
+                                        <li>
+                                            <a href="#">link 2</a>
+                                        </li>
+                                       
+                                    </ul>
+                                </div>
                             </li>
                             <li class="">
                                 <a href="#">Events</a>
                             </li>
-                            <li >
-                                <a href="#">B2B Services</a>
-                            </li>
+                          
                             <li >
                                 <a href="#">Contact Us</a>
                             </li>
-                            <li class="buttons">
-                                <a href="#" class="btn MainBtn">Apply Now</a>
-                            </li>
-                           <!--<li class="buttons">
-                                <a href="#" class="btn SecondaryBtn">Login
-                                    <img src="./img/icon/login.png" alt="" >
-                                </a>
-                            </li> -->
                         </ul>
-                        <div class="navbar-mobile">
+                      
+                        <div class="buttons apply-now-btn-header">
+                            <div class="search">
+                                <input type="search" name="" id="" value="Search">
+                            </div>
+                            <a href="#" class="btn MainBtn">Apply Now</a>
+                             
+                            <a href="#" class="btn SecondaryBtn">
+                                <img src="./img/apple.png" alt="" >
+                            </a>
+                            
+                        </div>
+                        <div class="navbar-mobile " >
                             <div class="toggle">
                                 <i class="fa-solid fa-bars fa-2x"></i>
                             </div>
-                            <div class="sidenav">
+                            <div class="sidenav" >
                                 <div class="colse">
                                     <i class="fa-solid fa-xmark fa-2x"></i>
                                 </div>
                                 <ul>
                                     <li class="active">
-                                        <a href="./home.html">Home</a>
+                                        <a href="#">Home</a>
                                     </li>
                                     <li>
-                                        <a href="./about-us.html">About us</a>
+                                        <a href="#">About us</a>
                                     </li>
                                     <li class="">
                                         <a href="#">Where To Study</a>
                                     </li>
                                     <li class="">
-                                        <a href="./Services.html">Services</a>
+                                        <a href="#">Services</a>
                                     </li>
                                     <li class="">
                                         <a href="#">Universities</a>
@@ -92,7 +112,9 @@
                                     <li >
                                         <a href="#">Contact Us</a>
                                     </li>
+                                    
                                     <li class="buttons">
+                                        
                                         <a href="#" class="btn MainBtn">Apply Now</a>
                                     </li>
                                     <!--<li class="buttons">
@@ -114,22 +136,52 @@
     <section class="main-banner  inner-serv unitedKingdom-banner">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="background-banner-color">
-                        <img src="./img/hero-bg6.png" alt="">
-                        <img src="./img/dots-153.png" alt="" class="relative-dots-about">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="relative-box-about ">
-                        <h1 class="relative-text">UK</h1>
-                        <h2 class="title text-left" >The United Kingdom</h2>
-                    </div>
-                </div>
                 <div class="col-md-12">
-                    <div class="title-banner-blue">
-                        <h3>BESA Group Can Help You Study in Over 200 Universities in The UK</h3>
+                    <div class="ukslider owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="img/banner-45.png" alt="">
+                            <div class="blue-qoute">
+                                <h4>The United Kingdom</h4>
+                                <p>
+                                    The United Kingdom of Great Britain and Northern Ireland, 
+                                    commonly known as the United Kingdom (UK) or Britain is a country in Western Europe, 
+                                    off the north-western coast of the continental mainland. It comprises England, Scotland, 
+                                    Wales and Northern Ireland.[
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/banner-45.png" alt="">
+                            <div class="blue-qoute">
+                                <h4>The United Kingdom</h4>
+                                <p>
+                                    The United Kingdom of Great Britain and Northern Ireland, 
+                                    commonly known as the United Kingdom (UK) or Britain is a country in Western Europe, 
+                                    off the north-western coast of the continental mainland. It comprises England, Scotland, 
+                                    Wales and Northern Ireland.[
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/banner-45.png" alt="">
+                            <div class="blue-qoute">
+                                <h4>The United Kingdom</h4>
+                                <p>
+                                    The United Kingdom of Great Britain and Northern Ireland, 
+                                    commonly known as the United Kingdom (UK) or Britain is a country in Western Europe, 
+                                    off the north-western coast of the continental mainland. It comprises England, Scotland, 
+                                    Wales and Northern Ireland.[
+                                </p>
+                            </div>
+                        </div>
+                        
                     </div>
+                </div>
+                
+                <div class="col-md-12">
+                    <a class="title-banner-blue greenish-teal" href="#">
+                        <h3>APPLY TO STUDY IN UK</h3>
+                    </a>
                 </div>
             </div>
         </div>
@@ -137,29 +189,7 @@
         
     </section>
 
-    <section class="just-text">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="descrp">
-                        Education plays an important role in the UK. The UK was, 
-                        still and will be one of the most vital places for international students. 
-                        It is really a top destination with an ever-increasing number of students joining institutions of academic
-                         excellence that offer unequalled degrees and qualifications. Besides, UK comes in the second place to the US 
-                         in being a study destination for international students. Moreover, London is considered as a major financial 
-                         center of Europe and the world
-
-                    </p>
-                    <p class="descrp">
-                        On the other hand, studying in Northern parts of the UK is always beneficial in many ways. For example,
-                         the Scottish system of education is quite distinct from other education systems in the UK. Higher education
-                          courses in Scotland are usually one year longer than in other parts of the country. The UK in fact has rich
-                           opportunities for international students with all kinds of interest.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
    
     <section class="whyStudy">
@@ -196,19 +226,230 @@
         </div>
     </section>
 
+    <section class="work-opportunities">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="text text-blue">
+                        <h4>EXPLORE A UNIQUE CULTURE</h4>
+                        <p class="descrip">
+                            The United Kingdom is a heterogeneous country with significant cultural influences. 
+                            No matter where you are from in the globe, you will feel at home in the United Kingdom.
+                            There will always be something to do in the UK, no matter where you study. When you're not studying, 
+                            you may go to pubs, sports arenas, markets, concerts, art galleries and more!
+                        </p>
+                    </div>
+                    <div class="text text-red">
+                        <h4>STUDY LENGTH IN UK</h4>
+                        <p class="descrip">
+                            Degrees in the United Kingdom take three or four years to complete, depending on where you study. 
+                            Degrees in England/Northern Ireland, Wales, and Scotland typically take three years. A postgraduate 
+                            degree is completed in one year. This implies you will pay less money on tuition. Furthermore, 
+                            there are several scholarships, grants, and bursaries available from institutions and universities.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="text text-yellow">
+                        <h4>WORK LIFE</h4>
+                        <p class="descrip">
+                            In the UK, International students are normally permitted to work up to 20 hours per week during term 
+                            time and full-time outside of term time. This will enable you to obtain useful job experience, 
+                            meet new people, and earn money while continuing your education.
+                            From the summer of 2021, anyone who has completed a UK degree will be eligible for the Graduate Route initiative. 
+                            This allows you to stay and work in the United Kingdom for up to two years after graduating.
+                            Most university courses enable and encourage students to do an internship as part of their studies; 
+                            in fact, some schools may even offer this as a module. 
+                            This means you may gain experience and boost your CV before even graduating!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="text background-white">
+                        <h2>WHAT PROGRAMMES ARE AVAILABLE IN THE UK?</h2>
+                        <p>
+                            Universities in the UK typically offer 3 year undergraduate degrees and 1 year master's programmes. 
+                            If you are an international student who needs to enhance your English or satisfy the requirements 
+                            of a conditional offer, foundation courses and English language schools can assist you. 
+                            If you are unclear about what sort of degree or course to pursue in the UK, 
+                            contact our advisors for a free consultation, and our university consultants will help you locate 
+                            the ideal institution, course, and location. Head to our <span>  pathway programs, university  placement and 
+                            young learners </span> page to learn more on what each program can offer you.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section class="tabes">
+
+    <section class="tabes benefits ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>BENEFITS OF STUDYING IN THE UK</h2>
+                    <div class="gridTabes">
+
+                       <div class="card">
+                        <div class="card-head">
+                            <img src="img/UK-Visa-United-Kingdom-Visa 1.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4>Cost of living</h4>
+                            <p>
+                                Cost of living in UK is, on average, 13.1% lower than in US & Australia. Rent in UK is, 
+                                on average, 33.2% lower than in US & Australia.
+                            </p>
+                        </div>
+                       </div>
+                       <div class="card">
+                        <div class="card-head">
+                            <img src="img/UK-Visa-United-Kingdom-Visa 1 (1).png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4>Graduate visa</h4>
+                            <p>
+                                A Graduate visa gives you permission to stay in the UK for at least 2 and up to 5 years after successfully completing a course. You can also apply for a tier 2 visa to work in the UK permanently.
+                            </p>
+                        </div>
+                       </div>
+                       <div class="card">
+                        <div class="card-head">
+                            <img src="img/UK-Visa-United-Kingdom-Visa 1 (2).png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4>Tourist</h4>
+                            <p>
+                                the world's 10th biggest tourist destination
+                            </p>
+                        </div>
+                       </div>
+
+                       <div class="card">
+                        <div class="card-head">
+                            <img src="img/UK-Visa-United-Kingdom-Visa 1 (3).png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4>Students discount</h4>
+                            <p>
+                                The UK is well known for taking care of its students. Enjoy students discount and perks!
+                            </p>
+                        </div>
+                       </div>
+                       <div class="card">
+                        <div class="card-head">
+                            <img src="img/UK-Visa-United-Kingdom-Visa 1 (4).png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4>Transportation</h4>
+                            <p>
+                                As a student in the UK you can benefit from discounts off your travel.
+                                Normally cities in the UK have well connected transportation to and from the university.
+                            </p>
+                        </div>
+                       </div>
+                       <div class="card">
+                        <div class="card-head">
+                            <img src="img/UK-Visa-United-Kingdom-Visa 1 (5).png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h4>Unforgettable experiences</h4>
+                            <p>
+                                Immerse yourself in unforgettable experiences from discovering national parks to touring the city 
+                                of London or perhaps a getaway to the countryside. 
+                                The night life in UK is rich and ready for you to explore
+                            </p>
+                        </div>
+                       </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="questions">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>FREQUENTLY ASKED QUESTIONS</h2>
+                    <div class="faq-item">
+                        <h3 class="faq-question">WHAT IS THE AVERAGE TUITION FEE FOR INTERNATIONAL STUDENTS IN THE UK?</h3>
+                        <div class="faq-answer">
+                            <p>
+                            Undergraduate tuition prices in the United Kingdom range from £11,400 to £38,000. The average annual cost is anticipated to be roughly £22,200.
+                            postgraduate tuition expenses range between £9,000 and £30,000. The average annual cost is anticipated to be roughly £17,109.
+                            Because tuition rates vary by course and institution, we recommend that you speak with one of our advisors for more information.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">WHAT IS THE AVERAGE UK LIVING COST AS AN INTERNATIONAL STUDENT?</h3>
+                        <div class="faq-answer">
+                            
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">CAN I STAY IN THE UK AFTER I COMPLETE MY STUDY?</h3>
+                        <div class="faq-answer">
+                           
+                        </div>
+                    </div>
+
+                    <a href="#" class="detalis">CONTACT ADVISOR FOR MORE DETAILS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-uk">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>OUR UK PARTNER UNIVERSITIES</h2>
+                    <div class="gridOuruk">
+                        <img src="img/part-logo (3).png" alt="">
+                        <img src="img/part-logo (2).png" alt="">
+                        <img src="img/part-logo (1).png" alt="">
+                        <img src="img/part-logo (6).png" alt="">
+                        <img src="img/part-logo (5).png" alt="">
+                        <img src="img/part-logo (4).png" alt="">
+
+                    </div>
+                    <a href="#" class="link">EXPLORE UK UNIVERSITIES</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>OUR UK PARTNER UNIVERSITIES</h2>
+                    <p>HEAR FROM SOME OF OUR INTERNATIONAL STUDENT’S EXPERIENCE ON STUDYING IN UK</p>
+                    <div class="d-flex images">
+                        <div class="image">
+                            <img src="img/pers (1).png" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="img/pers (1).png" alt="">
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+    <section class="tabes tabes2">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="gridTabes">
-                        <a href="#" class="btn clear-blue foundation">Foundation</a>
-                        <a href="#" class="btn light-red pre-sessional ">Pre-sessional </a>
-                        <a href="#" class="btn gold-tips bachelor">Bachelor</a>
+                        <a href="#" class="btn clear-blue foundation">REGISTER NOW TO APPLY</a>
 
-                        <a href="#" class="btn greenish-teal master">Master</a>
-                        <a href="#" class="btn slate-grey phd">PhD</a>
-                        <a href="#" class="btn white vocational">Vocational</a>
+                        <a href="#" class="btn greenish-teal master">EXPLORE STUDYING IN UK</a>
+                       
 
                     </div>
                 </div>

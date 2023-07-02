@@ -22,7 +22,7 @@
 }
 
 .greenish-teal {
-    background: #33CA94;
+    background: #33CA94 !important;
 }
 
 .slate-grey {
@@ -6220,9 +6220,358 @@ input[type="search"]:focus {
     color: rgba(51, 202, 148, 1);
 }
 
-.free-meating .text a{
+.free-meating .text a {
     width: 167px;
     border-radius: 20px;
     height: 45px;
-margin-top: 15px;
+    margin-top: 15px;
+}
+
+.ukslider .item {
+    position: relative;
+}
+
+.blue-qoute {
+    border-radius: 23px;
+    background: #242F65;
+    max-width: 462px;
+    position: absolute;
+    left: 160px;
+    top: 50%;
+    transform: translatey(-50%);
+    padding: 25px 75px 25px 35px;
+}
+
+.blue-qoute h4 {
+    color: #FFF;
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.blue-qoute p {
+    color: #FFF;
+    text-align: justify;
+    font-size: 12px;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.ukslider .owl-dots.disabled {
+    display: block;
+}
+
+.ukslider .owl-dots {
+    position: absolute;
+    top: 50%;
+    left: 65px;
+    -webkit-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    transform: translateY(-50px);
+}
+
+.ukslider .owl-dots .owl-dot {
+    display: block;
+    zoom: 1;
+}
+
+.ukslider .owl-dots .owl-dot span {
+    width: 16px;
+    height: 16px;
+    margin-bottom: 26px;
+    display: block;
+    -webkit-backface-visibility: visible;
+    -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.ukslider .owl-dots .owl-dot.active span,
+.ukslider .owl-dots .owl-dot:hover span {
+    background: rgba(255, 255, 255, 1);
+}
+
+.work-opportunities {
+    background: linear-gradient(180deg, #E7E7E9 0%, #C5C5C5 100%);
+
+}
+
+.work-opportunities .col-md-7,
+.work-opportunities .col-md-5 {
+    padding: 0 50px;
+}
+
+.work-opportunities .text h4 {
+    color: #2575FC;
+    font-size: 28px;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.work-opportunities .text {
+    margin-bottom: 50px;
+}
+
+.work-opportunities .text-red h4 {
+    color: #FF5151;
+
+}
+
+.work-opportunities .text-yellow h4 {
+    color: #E3B505;
+
+}
+
+.work-opportunities .text p {
+    color: #4B4F58;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.work-opportunities .background-white {
+    border-radius: 40px;
+    background: #FFF;
+    padding: 40px 95px;
+}
+
+.work-opportunities .background-white h2 {
+    color: #33CA94;
+    font-size: 28px;
+    font-family: "Merriweather";
+    font-weight: 900;
+    margin-bottom: 0;
+    line-height: normal;
+
+}
+
+.work-opportunities .background-white p {
+    color: #4B4F58;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.work-opportunities .background-white p span {
+    color: #33CA94;
+
+}
+
+.benefits {
+    background: linear-gradient(180deg, #2C3041 0%, #242F65 100%);
+    padding: 45px 0;
+}
+
+.benefits h2 {
+    color: #66D8FF;
+    font-size: 48px;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 900;
+    line-height: 63px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.benefits .gridTabes {
+    min-width: unset;
+    max-width: unset;
+    grid-gap: 40px;
+
+}
+
+.benefits .gridTabes .card {
+    border-radius: 40px;
+    background: #FFF;
+    box-shadow: 4px 7px 4px 1px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    min-height: 319px;
+
+}
+
+.benefits .gridTabes .card .card-head img {
+    height: 100%;
+}
+
+.benefits .gridTabes .card .card-head {
+    height: 217px;
+
+}
+
+.benefits .gridTabes .card .card-body {
+    padding: 18px 35px;
+}
+
+.benefits .gridTabes .card .card-body h4 {
+    color: #4B4F58;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.benefits .gridTabes .card .card-body p {
+    color: #4B4F58;
+    font-size: 12px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.questions {
+    background: linear-gradient(180deg, #33CA94 0%, #0BBD7D 100%);
+}
+
+.questions h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 900;
+    line-height: 63px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.questions .faq-item {
+    padding: 20px 60px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 4px 7px 4px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 16px;
+}
+
+.questions .faq-item .faq-question {
+    color: #4B4F58;
+    cursor: pointer;
+
+    font-size: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.questions .faq-item .faq-answer {
+    color: #4B4F58;
+    font-size: 12px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: none;
+
+}
+
+.questions .detalis {
+    color: #FFF;
+    text-align: center;
+    font-size: 13.5px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 208.5%;
+    text-decoration-line: underline;
+    display: block;
+}
+
+.our-uk {
+    background: linear-gradient(180deg, #FF5151 0%, #FFF 42.71%);
+}
+
+.our-uk .gridOuruk {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 35px 90px;
+    place-items: center;
+
+}
+
+.our-uk h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 900;
+    line-height: 63px;
+    margin-bottom: 40px;
+}
+
+.our-uk .link {
+    color: #E52522;
+    text-align: center;
+    display: block;
+    font-size: 13.5px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 208.5%;
+    text-decoration-line: underline;
+    margin-top: 40px;
+}
+
+.tabes2 {
+    padding: 45px 0;
+    background: #2C3041;
+}
+
+.tabes2 .gridTabes {
+    max-width: unset;
+    min-width: unset;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 70px
+}
+
+.tabes2 .gridTabes .btn {
+    width: 100%;
+}
+
+.our-partner {
+    background: #8692A6;
+    text-align: center;
+}
+
+.our-partner h2 {
+    color: #FFF;
+    /* Section Title */
+    font-size: 48px;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 900;
+    line-height: 63px;
+}
+
+.our-partner p {
+    color: #FFF;
+    font-size: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.our-partner .image {
+    border-radius: 40px;
+    border: 11px solid #FFF;
+    box-shadow: 4px 7px 4px 1px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+
+}
+
+.our-partner  .d-flex {
+    justify-content: center;
+    grid-gap: 103px;
 }
