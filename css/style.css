@@ -6707,9 +6707,12 @@ input[type="search"]:focus {
     font-weight: 400;
     line-height: normal;
     list-style: disc;
-
 }
 
 .FoundationProgramFAQs .itemFAQs:nth-child(odd) {
     background: #F6F9FB;
+}
+
+.university-Placement-banner {
+    padding-bottom: 0;
 }
