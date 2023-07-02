@@ -44,6 +44,8 @@ $(document).ready(function () {
   var sliderTestimonials = $(".slider-testimonials");
   var customeSlider = $(".custome-slider");
   var ukslider = $(".ukslider");
+  var lifeBesaslider = $(".owl-lifeBesa");
+
 
   mainSlider.owlCarousel({
     items: 1,
@@ -83,6 +85,19 @@ $(document).ready(function () {
     margin: 10,
     dots: true,
     nav: false,
+  });
+
+  lifeBesaslider.owlCarousel({
+    items: 3,
+    loop: true,
+    margin: 40,
+    dots: true,
+    nav: true,
+    navText: [
+      "<img src='./img/chevron-right.svg'>",
+      "<img src='./img/chevron-left.svg'>",
+      
+    ],
   });
 
   // jQuery animated number counter from zero to value

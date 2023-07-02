@@ -5950,7 +5950,6 @@ input.search {
 .careers .circular-pictures .yellow-circle {
     border-color: #E3B505;
     top: 50%;
-    transform: ;
     transform: translate(15%, 37%);
 
 }
@@ -6715,14 +6714,206 @@ input[type="search"]:focus {
 .university-Placement-banner {
     padding-bottom: 0;
 }
-.blogs>.container>.row .col-md-12>.display-flex{
+
+.blogs>.container>.row .col-md-12>.display-flex {
     margin-bottom: 70px;
 }
 
-.blogs-banner{
+.blogs-banner {
     padding: 0;
 }
 
 .blogs>.container>.row .col-md-12>.display-flex:last-child {
     margin: 0;
+}
+
+.careers {
+    background: linear-gradient(180deg, #66D8FF 26.56%, rgba(102, 216, 255, 0.00) 82.29%);
+    padding-bottom: 0;
+}
+
+.careers-banner {
+    padding: 0;
+}
+
+.careers h4 {
+    color: #2575FC;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.careers h4 span {
+    color: rgba(46, 53, 82, 1);
+}
+
+.careers .grid3col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 60px 32px;
+    padding: 40px 0;
+}
+
+.careers .item {
+    border-radius: 10px;
+    background: #FFF;
+    padding: 20px 50px;
+    text-align: center;
+    position: relative;
+    height: 160px;
+}
+
+.careers .item h5 {
+    color: #767B92;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+
+}
+
+.careers .item p {
+    color: #767B92;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 400;
+    line-height: normal;
+}
+
+.careers .item .btn {
+    border-radius: 10px;
+    background: #2575FC;
+    width: 223.442px;
+    height: 60.211px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+}
+
+.careers .benefits-en {
+    padding-top: 30px;
+}
+
+.careers .benefits-en .circles .circle {
+    border-radius: 200px;
+    border: 15px solid #33CA94;
+    background: #FFF;
+    width: 235px;
+    height: 235px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.careers .benefits-en .circles .circle p {
+    color: rgba(0, 0, 0, 0.40);
+    text-align: center;
+    font-size: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.careers .title-ben {
+    color: #2C3041;
+    text-align: center;
+    font-size: 48px;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 900;
+    line-height: 63px;
+    margin-bottom: 10px;
+}
+
+.careers .container-ben {
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.yellow-circle {
+    border: 15px solid #E3B505 !important;
+    margin-left: -20px;
+
+}
+
+.red-circle {
+    border: 15px solid #FF5151 !important;
+    margin-left: -20px;
+
+}
+
+.lifeBesaSlider {
+    background: #33CA94;
+    padding: 30px 0;
+}
+
+.lifeBesaSlider .title {
+    color: #FFF;
+    font-size: 28px;
+    font-family: "Merriweather";
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 40px;
+
+}
+
+.lifeBesaSlider .title span {
+    color: rgba(223, 227, 5, 1);
+    display: inline-block;
+}
+
+.owl-lifeBesa .owl-dots.disabled,
+.owl-lifeBesa .owl-nav.disabled {
+    display: block;
+}
+.owl-lifeBesa .owl-nav{
+   
+}
+.owl-lifeBesa .owl-nav .owl-next,
+.owl-lifeBesa .owl-nav .owl-prev{
+    position: absolute;
+    top: 50%;
+    transform: translatey(calc(-50% - 57px));
+    -webkit-transform: translatey(calc(-50% - 57px));
+    -moz-transform: translatey(calc(-50% - 57px));
+    -ms-transform: translatey(calc(-50% - 57px));
+    -o-transform: translatey(calc(-50% - 57px));
+}
+.owl-lifeBesa .owl-nav .owl-prev{
+    left: -60px;
+}
+.owl-lifeBesa .owl-nav .owl-next{
+    right:  -60px;
+}
+.owl-lifeBesa .owl-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.owl-lifeBesa .owl-dots .owl-dot span {
+    width: 94.813px;
+    height: 5px;
+    display: block;
+    margin: 50px 10px 15px;
+    border: 1px solid #fff;
+
+}
+
+.owl-lifeBesa .owl-dots .owl-dot.active span,
+.owl-lifeBesa .owl-dots .owl-dot:hover span {
+    height: 5px;
+    background: #fff;
 }
