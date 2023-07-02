@@ -6644,5 +6644,72 @@ input[type="search"]:focus {
 
 }
 
-.leading-study .buttons .btn:last-child{
-    background: #33CA94;}
+.leading-study .buttons .btn:last-child {
+    background: #33CA94;
+}
+
+.university-Placement-banner .background-banner-color {
+    padding: 0;
+    background: none;
+}
+
+.university-Placement-banner .relative-box-about {
+    position: absolute;
+    left: 200px;
+    top: -30px;
+    z-index: 2;
+}
+
+.university-Placement-banner .relative-box-about h1 {
+    top: 80px;
+    font-size: 113px;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 900;
+    line-height: 79px;
+}
+
+.FoundationProgramFAQs {}
+
+.FoundationProgramFAQs .itemFAQs {
+    background: #EAF1F3;
+
+}
+
+.FoundationProgramFAQs .itemFAQs .box-item {
+    padding: 40px;
+
+}
+
+.FoundationProgramFAQs .itemFAQs p {
+    color: #767B92;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.FoundationProgramFAQs .itemFAQs ul {
+    display: block;
+    padding-left: 20px;
+
+}
+
+.FoundationProgramFAQs .itemFAQs ul li {
+    display: list-item;
+    color: #242F65;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    list-style: disc;
+
+}
+
+.FoundationProgramFAQs .itemFAQs:nth-child(odd) {
+    background: #F6F9FB;
+}
