@@ -6205,7 +6205,6 @@ input[type="search"]:focus {
 
 .free-meating .grid-meating {
     display: flex;
-    grid-gap: 30px;
     align-items: center;
 }
 
@@ -6715,4 +6714,15 @@ input[type="search"]:focus {
 
 .university-Placement-banner {
     padding-bottom: 0;
+}
+.blogs>.container>.row .col-md-12>.display-flex{
+    margin-bottom: 70px;
+}
+
+.blogs-banner{
+    padding: 0;
+}
+
+.blogs>.container>.row .col-md-12>.display-flex:last-child {
+    margin: 0;
 }
