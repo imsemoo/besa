@@ -6879,11 +6879,11 @@ input[type="search"]:focus {
 .owl-lifeBesa .owl-nav.disabled {
     display: block;
 }
-.owl-lifeBesa .owl-nav{
-   
-}
+
+.owl-lifeBesa .owl-nav {}
+
 .owl-lifeBesa .owl-nav .owl-next,
-.owl-lifeBesa .owl-nav .owl-prev{
+.owl-lifeBesa .owl-nav .owl-prev {
     position: absolute;
     top: 50%;
     transform: translatey(calc(-50% - 57px));
@@ -6892,17 +6892,21 @@ input[type="search"]:focus {
     -ms-transform: translatey(calc(-50% - 57px));
     -o-transform: translatey(calc(-50% - 57px));
 }
-.owl-lifeBesa .owl-nav .owl-prev{
+
+.owl-lifeBesa .owl-nav .owl-prev {
     left: -60px;
 }
-.owl-lifeBesa .owl-nav .owl-next{
-    right:  -60px;
+
+.owl-lifeBesa .owl-nav .owl-next {
+    right: -60px;
 }
+
 .owl-lifeBesa .owl-dots {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .owl-lifeBesa .owl-dots .owl-dot span {
     width: 94.813px;
     height: 5px;
@@ -6916,4 +6920,103 @@ input[type="search"]:focus {
 .owl-lifeBesa .owl-dots .owl-dot:hover span {
     height: 5px;
     background: #fff;
+}
+
+.contact-banner .title-banner-blue {
+    background: #242F65 !important;
+    height: 80px !important;
+}
+
+.contact-banner .title-banner-blue .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+
+}
+
+.contact-banner .title-banner-blue .icons a {
+    color: #fff;
+}
+
+.contact-en {
+    background: #D0E1E7;
+    padding: 55px 0;
+}
+
+.contact-en .grid3col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.contact-en .grid3col .item img {
+    margin-bottom: 20px;
+}
+
+.contact-en .grid3col .item .content {
+    margin-top: 30px;
+}
+
+.contact-en .grid3col .item .content:first-of-type {
+    margin: 0;
+}
+
+.contact-en .grid3col .item .content h4 {
+    color: #242F65;
+    font-size: 28px;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.contact-en .grid3col .item .content p {
+    color: #0F001A;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact-en .grid3col .item .content p.email {
+    margin-top: 10px;
+}
+
+.contact-en .grid3col .item .content p.address {
+    margin: 10px 0;
+}
+
+.contact-en .grid3col .item .content p.time-red {
+    color: #FF5151;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.form-area textarea,
+.form-area select,
+.form-area input {
+    border-radius: 4px;
+    border: 1.2px solid #B4BEC8;
+    color: #878787;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    background: #F3F3F3;
+}
+
+.form-area textarea {
+    height: 152px;
+}
+.contact-us label{
+    opacity: 0.800000011920929;
+    color: #0F001A;
+    left: 10px;
+    padding: 0px 2px;
 }
