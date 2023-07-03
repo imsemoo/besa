@@ -7031,26 +7031,28 @@ input[type="search"]:focus {
     left: -25px;
 }
 
-.british-banner .title-banner-blue{
+.british-banner .title-banner-blue {
     flex-flow: column;
     padding: 65px 120px;
     text-align: left;
 }
-.british-banner .title-banner-blue p{
+
+.british-banner .title-banner-blue p {
     color: #FFF;
     text-align: left;
-font-size: 18px;
-font-family: "Poppins";
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-bottom: 20px;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
 }
-.british-banner .title-banner-blue p:last-child{
+
+.british-banner .title-banner-blue p:last-child {
     margin: 0;
 }
 
-.servTrophy{
+.servTrophy {
     background: #FFF;
 }
 
@@ -7074,22 +7076,24 @@ margin-bottom: 20px;
 .servTrophy .container-icons .icon-box:nth-child(4) {
     border-bottom: 7px solid #E3B505;
 }
-.servTrophy  .container-icons .icon-box h4{
+
+.servTrophy .container-icons .icon-box h4 {
     color: #8692A6;
     margin-bottom: 0;
 }
 
 .servTrophy .container-icons .icon-box img {
-    margin:unset;
+    margin: unset;
     height: 70px;
 
 }
 
-.servTrophy  .container-icons {
-    -ms-grid-columns: 1fr 1fr 1fr 1fr ;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
+.servTrophy .container-icons {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.servTrophy .container-icons .icon-box{
+
+.servTrophy .container-icons .icon-box {
     grid-gap: 20px;
     justify-content: center;
     text-align: center;
@@ -7104,7 +7108,108 @@ margin-bottom: 20px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.british-tabes .gridTabes .btn{
+.british-tabes .gridTabes .btn {
     width: 315px;
 
+}
+
+.B2B-banner .relative-box-about h1 {
+    font-size: 113px;
+
+}
+
+.B2B-banner .relative-box-about h1 {
+    top: 75px;
+    left: -20px;
+}
+
+.B2B-banner .relative-box-about {
+    left: -20px;
+    top: 60px;
+}
+
+.B2B-banner .relative-dots-about {
+    right: -540px;
+}
+
+.title-header-blue {
+    background: #2575FC;
+    padding: 33px 0;
+}
+
+.title-header-blue .containerb2b {
+    align-items: center;
+    grid-gap: 45px;
+}
+
+.title-header-blue .containerb2b .image {
+    width: 100%;
+}
+
+.title-header-blue .containerb2b .content h4 {
+    color: #FFF;
+    font-size: 28px;
+    font-family: "Merriweather";
+    line-height: normal;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.title-header-blue .containerb2b .content p {
+    color: #FFF;
+    font-size: 17px;
+    font-family: "Poppins";
+    font-weight: 400;
+    line-height: normal;
+}
+
+.servTrophy h2 {
+    color: #242F65;
+    text-align: center;
+    font-size: 28px;
+}
+
+.professional-development {
+    padding: 35px 0;
+    background: #2C3041;
+}
+.professional-development .title{
+    margin-bottom: 10px;
+}
+.professional-development p {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+    padding: 0 40px;
+
+}
+.professional-development .d-flex{
+    grid-gap: 50px;
+}
+.professional-development .card {
+    border-radius: 40px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 6.77%, #000 100%);
+    padding: 35px 38px 70px;
+}
+
+.professional-development .card h4 {
+    color: #00B9BF;
+    font-size: 28px;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.professional-development .card p {
+    color: #E7E7E9;
+    text-align: left;
+    margin: 0;
+    padding: 0;
 }
