@@ -7270,11 +7270,15 @@ input[type="search"]:focus {
     width: 80%;
 
 }
-.bannar-blue{
-    background: linear-gradient(270deg, #242F65 0%, rgba(36, 47, 101, 0.00) 100%), url(../img/blue-bannar.png),  #242F65;
+
+.bannar-blue {
+    background: linear-gradient(270deg, #242F65 0%, rgba(36, 47, 101, 0.00) 100%), url(../img/blue-bannar.png), #242F65;
     padding: 130px 0;
+    background-repeat: no-repeat;
+
 }
-.bannar-blue .btn-blue{
+
+.bannar-blue .btn-blue {
     border-radius: 10px;
     font-size: 28px;
     font-family: "Merriweather";
@@ -7286,11 +7290,12 @@ input[type="search"]:focus {
 
 }
 
-.bannar-green{
-   height: 330px;
-    background: linear-gradient(270deg, #079C67 0%, rgba(7, 156, 103, 0.00) 100%), url(../img/green-nannar.png) #079C67;
-    background-repeat: no-repeat;
+.bannar-green {
+    height: 330px;
+    background: linear-gradient(45deg, #079C67 0%, rgba(7, 156, 103, 0.00) 70%), url(../img/green-nannar.png) #079C67;
+    background-repeat: round;
 }
+
 .bannar-green .btn-green {
     border-radius: 10px;
     font-size: 28px;
@@ -7299,16 +7304,18 @@ input[type="search"]:focus {
     font-weight: 900;
     height: 70px;
     padding: 10px 30px;
-    width: max-content;    background: #33CA94;
+    width: max-content;
+    background: #33CA94;
 
 
 }
-.bannar-green p{
+
+.bannar-green p {
     color: #FFF;
-font-size: 24px;
-font-family: "Poppins";
-font-style: normal;
-font-weight: 400;
-line-height: 35px;
-margin-bottom: 20px;
+    font-size: 24px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 20px;
 }
