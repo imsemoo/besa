@@ -3700,7 +3700,6 @@ input[type="checkbox"] {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: start;
-    padding-top: 75px;
 }
 
 .british-banner .relative-box-about {
@@ -7014,9 +7013,39 @@ input[type="search"]:focus {
 .form-area textarea {
     height: 152px;
 }
-.contact-us label{
+
+.contact-us label {
     opacity: 0.800000011920929;
     color: #0F001A;
     left: 10px;
     padding: 0px 2px;
+}
+
+.british-banner .relative-box-about {
+    left: -20px;
+    top: 120px;
+}
+
+.british-banner .relative-box-about h1 {
+    top: 35px;
+    left: -25px;
+}
+
+.british-banner .title-banner-blue{
+    flex-flow: column;
+    padding: 65px 120px;
+    text-align: left;
+}
+.british-banner .title-banner-blue p{
+    color: #FFF;
+    text-align: left;
+font-size: 18px;
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 20px;
+}
+.british-banner .title-banner-blue p:last-child{
+    margin: 0;
 }
