@@ -7049,3 +7049,62 @@ margin-bottom: 20px;
 .british-banner .title-banner-blue p:last-child{
     margin: 0;
 }
+
+.servTrophy{
+    background: #FFF;
+}
+
+
+
+.servTrophy .container-icons .icon-box:nth-child(1) {
+    border-bottom: 7px solid #33CA94;
+
+}
+
+.servTrophy .container-icons .icon-box:nth-child(2) {
+    border-bottom: 7px solid #FF5151;
+
+}
+
+.servTrophy .container-icons .icon-box:nth-child(3) {
+    border-bottom: 7px solid #2575FC;
+
+}
+
+.servTrophy .container-icons .icon-box:nth-child(4) {
+    border-bottom: 7px solid #E3B505;
+}
+.servTrophy  .container-icons .icon-box h4{
+    color: #8692A6;
+    margin-bottom: 0;
+}
+
+.servTrophy .container-icons .icon-box img {
+    margin:unset;
+    height: 70px;
+
+}
+
+.servTrophy  .container-icons {
+    -ms-grid-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.servTrophy .container-icons .icon-box{
+    grid-gap: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    place-content: start;
+}
+
+
+
+.british-tabes .gridTabes {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.british-tabes .gridTabes .btn{
+    width: 315px;
+
+}
