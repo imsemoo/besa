@@ -7173,9 +7173,11 @@ input[type="search"]:focus {
     padding: 35px 0;
     background: #2C3041;
 }
-.professional-development .title{
+
+.professional-development .title {
     margin-bottom: 10px;
 }
+
 .professional-development p {
     color: #FFF;
     text-align: center;
@@ -7188,9 +7190,11 @@ input[type="search"]:focus {
     padding: 0 40px;
 
 }
-.professional-development .d-flex{
+
+.professional-development .d-flex {
     grid-gap: 50px;
 }
+
 .professional-development .card {
     border-radius: 40px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 6.77%, #000 100%);
@@ -7212,4 +7216,99 @@ input[type="search"]:focus {
     text-align: left;
     margin: 0;
     padding: 0;
+}
+
+.fair-banner .text-radius {
+    padding: 40px 65px;
+}
+
+.servFair {
+    background: #DBE6EA;
+}
+
+.servFair .grid-3col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px 50px;
+    padding: 0px 30px;
+
+}
+
+.servFair .item {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.servFair .item .icon {
+    border-radius: 61px;
+    border: 3px solid #FF5151;
+    width: 61px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servFair .item .blue-border {
+    border-color: rgba(37, 117, 252, 1);
+}
+
+.servFair .item .green-border {
+    border-color: rgba(51, 202, 148, 1);
+
+}
+
+.servFair .item p {
+    color: #767B92;
+    font-size: 16px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    width: 80%;
+
+}
+.bannar-blue{
+    background: linear-gradient(270deg, #242F65 0%, rgba(36, 47, 101, 0.00) 100%), url(../img/blue-bannar.png),  #242F65;
+    padding: 130px 0;
+}
+.bannar-blue .btn-blue{
+    border-radius: 10px;
+    font-size: 28px;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 900;
+    height: 70px;
+    padding: 10px 30px;
+    margin-left: auto;
+
+}
+
+.bannar-green{
+   height: 330px;
+    background: linear-gradient(270deg, #079C67 0%, rgba(7, 156, 103, 0.00) 100%), url(../img/green-nannar.png) #079C67;
+    background-repeat: no-repeat;
+}
+.bannar-green .btn-green {
+    border-radius: 10px;
+    font-size: 28px;
+    font-family: "Merriweather";
+    font-style: normal;
+    font-weight: 900;
+    height: 70px;
+    padding: 10px 30px;
+    width: max-content;    background: #33CA94;
+
+
+}
+.bannar-green p{
+    color: #FFF;
+font-size: 24px;
+font-family: "Poppins";
+font-style: normal;
+font-weight: 400;
+line-height: 35px;
+margin-bottom: 20px;
 }
